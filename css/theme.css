@@ -351,7 +351,7 @@ h1.intro {
 /**** LOGO ****/
 .logo {
   float: left;
-  margin: 30px 0px 0 -15px !important;
+  margin: 0px 0px 0 -15px !important;
   z-index: 1;
   webkit-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
@@ -432,7 +432,7 @@ h1.intro {
 /**** TOGGLE ****/
 .navbar-toggle {
   position: absolute;
-  top: 20px;
+  top: 10px;
   font-size: 20px;
   border: 0px;
   width: 40px;
@@ -2092,12 +2092,41 @@ span.nav-close:before {
 /*-----------------------------------------------------------------------------------*/
 /*	08: MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
-@media (max-width: 979px) {
+@media (max-width: 1199px) {
+  #main_menu .nav {
+    margin: 4px 0 0 0; }
+  #main_menu .nav > li > a {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding: 24px 18px 22px;
+    text-align: center !important;
+    text-transform: uppercase; }
+  .header {
+    min-height: 0px; }
+  .logo {
+    max-width: 200px;
+    float: left;
+    margin: 0px 0px 0px -0px !important; } }
+
+@media (max-width: 991px) {
+  .FlickrImagesBlog li {
+    width: 10% !important; }
+  h3.follow {
+    width: 80%; }
+  .navbar {
+    min-height: 0px; }
+  #main_menu .nav > li > a {
+    font-size: 12px;
+    margin: 0px 0 -0px 0 !important;
+    padding: 12px 10px 10px !important; }
+  #main_menu .nav {
+    margin: 0px -20px 0px 0 !important; }
   .header {
     float: none !important;
     text-align: center;
     margin: 0px auto;
-    padding-bottom: 10px !important; }
+    padding-bottom: 0px !important; }
   .container {
     padding: 0 15px !important; }
   .btn-navbar {
@@ -2108,7 +2137,8 @@ span.nav-close:before {
     padding-bottom: 25px !important; }
   .logo {
     float: left;
-    margin: 35px 20px 0 40px !important; }
+    max-width: 118px;
+    margin: 0px 0px 0 0px !important; }
   .navbar .nav.pull-right {
     float: right;
     margin-right: 0px !important; }
@@ -2122,7 +2152,8 @@ span.nav-close:before {
   /* prettyPhoto styling for small screens */
   .logo {
     float: left;
-    margin: 30px 0px 20px 20px !important; }
+    max-width: 200px;
+    margin: 0px 0px 0px 10px !important; }
   .navbar .nav.pull-right {
     float: none;
     width: 100%;
@@ -2135,7 +2166,7 @@ span.nav-close:before {
   #main_menu .nav > li:first-child {
     border-top: 0px solid #2C2C2C;
     width: 100% !important;
-    margin-top: -20px; }
+    margin-top: 0px; }
   #main_menu .nav > .active > a, #main_menu .nav > .active > a:hover {
     background: transparent !important; }
   ul.dropdown-menu {
@@ -2223,38 +2254,23 @@ span.nav-close:before {
     left: 0;
     z-index: 999; } }
 
-@media (min-width: 768px) and (max-width: 979px) {
-  .logo {
-    float: left;
-    margin: 35px 0px 0 0px !important; }
-  #main_menu .nav > li > a {
-    font-size: 12px;
-    margin: 0px 0 -10px 0 !important;
-    padding: 24px 15px 22px !important; }
-  #main_menu .nav {
-    margin: 28px -20px 0px 0 !important; }
-  .FlickrImagesBlog li {
-    width: 10% !important; }
-  h3.follow {
-    width: 80%; } }
-
-@media (min-width: 979px) and (max-width: 1028px) {
+@media (min-width: 979px) and (max-width: 1023px) {
   h3.follow {
     width: 70%; } }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 479px) {
   .nivo_height {
     padding-top: 0px !important; }
   #banner {
     padding-bottom: 25px !important; } }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 319px) {
   h1.title {
     line-height: 40px !important; } }
 
 /* slider revolution */
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .rev-title {
     font-size: 16px;
     line-height: 22px; }
@@ -2273,7 +2289,7 @@ span.nav-close:before {
     margin-top: -20px; } }
 
 /* slider revolution */
-@media screen and (min-width: 481px) and (max-width: 766px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .rev-title {
     font-size: 10px;
     line-height: 14px; }
@@ -2354,7 +2370,7 @@ span.nav-close:before {
     margin: 0px 0 -10px; } }
 
 /* flickr */
-@media (min-width: 480px) and (max-width: 979px) {
+@media (min-width: 480px) and (max-width: 991px) {
   .FlickrImagesBlog li {
     width: 20%; } }
 
@@ -2363,15 +2379,15 @@ span.nav-close:before {
     width: 30% !important; } }
 
 /* dribbble */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .shotList img {
     width: 32.6% !important; } }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .shotList img {
     width: 48.88% !important; } }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 479px) {
   .shotList img {
     width: 100% !important; } }
 
@@ -2407,7 +2423,7 @@ span.nav-close:before {
   #footer2 {
     padding: 28px 0 0 !important; } }
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 479px) {
   .slideshow figure {
     background: #fff;
     border: 20px solid #fff;
