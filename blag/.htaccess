@@ -9,6 +9,6 @@ DirectoryIndex
 RewriteEngine on
 
 # Simple URL redirect:
-RewriteRule ^(.*)$ http://ucm.hosting.acm.org:62664/blog/$1 [P]
+RewriteRule ^(.*)$ http://ucm.hosting.acm.org:61079/blag/$1 [P]
 
 </IfModule>
