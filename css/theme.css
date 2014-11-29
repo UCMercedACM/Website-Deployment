@@ -2247,10 +2247,23 @@ span.nav-close:before {
   .theme-default .nivo-html-caption {
     display: none; } }
 
-@media (min-width: 768px) {
+.navbar-nav ul {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 999; }
+
+@media (max-width: 1199px) {
   .navbar-nav ul {
     position: absolute;
-    top: 80px;
+    top: 60px;
+    left: 0;
+    z-index: 999; } }
+
+@media (max-width: 978px) {
+  .navbar-nav ul {
+    position: absolute;
+    top: 40px;
     left: 0;
     z-index: 999; } }
 
@@ -2430,4 +2443,7 @@ span.nav-close:before {
     overflow-y: scroll !important; }
   .slideshow nav span.nav-prev, .slideshow nav span.nav-next {
     display: none; } }
+
+iframe html {
+  overflow: hidden; }
 
