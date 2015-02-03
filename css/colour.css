@@ -4,92 +4,121 @@ Description:  Designed by josweb.
 Author:  Jo
 Purchase:  http://themeforest.net/user/josweb
 */
+/* line 8, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .header {
   background: #323A45; }
 
+/* line 9, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #banner {
   background: #e9e6e1; }
 
+/* line 10, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 ::-moz-selection {
   color: #fff;
   background: #2BA6CB; }
 
+/* line 11, /Users/Joanna/Website-Theme/src/scss/colour.scss */
+::-moz-selection {
+  color: #fff;
+  background: #2BA6CB; }
 ::selection {
   color: #fff;
   background: #2BA6CB; }
 
+/* line 12, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 blockquote {
   border-left: 3px solid #2BA6CB; }
 
+/* line 14, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .zocial, a.zocial {
   color: #fff;
   background: #2BA6CB; }
 
+/* line 15, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .zocial:hover, .zocial:focus {
   color: #fff;
   background: #2980B9; }
 
+/* line 17, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .well {
   background-color: #D3CDC4; }
 
+/* line 18, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .dropcap2 {
   color: #2BA6CB; }
 
 /**** BUTTONS ****/
+/* line 21, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn-primary {
   background-color: #2BA6CB;
   border: 0; }
 
+/* line 22, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn-primary:hover {
   background-color: #34495E; }
 
+/* line 23, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn-inverse {
   background-color: #323A45; }
 
+/* line 24, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn-inverse:hover {
   background-color: #3e4957; }
 
+/* line 25, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn:visited, .btn:focus {
   color: #fff; }
 
 /**** LINKS ****/
+/* line 28, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 a {
   color: #2BA6CB; }
 
+/* line 29, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 a:hover {
   color: #555; }
 
 /**** WORK LINKS ****/
+/* line 32, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .portfolio-links i {
   background-color: #3E4957; }
 
+/* line 33, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .portfolio-links a:hover i {
   background-color: #323A45; }
 
 /***************************************************
 	COLOURS
  ***************************************************/
+/* line 40, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .hue {
   color: #2BA6CB; }
 
+/* line 41, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .white {
   color: #fff; }
 
+/* line 42, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .magnolia {
   color: #E9E6E1; }
 
+/* line 43, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .grey {
   color: #999; }
 
+/* line 44, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .grey2 {
   color: #69767F; }
 
+/* line 45, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .asphalt {
   color: #34495E; }
 
+/* line 46, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .colour {
   color: #2BA6CB; }
 
+/* line 47, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .hue_block {
   background-color: #2BA6CB;
   color: #fff;
@@ -97,10 +126,12 @@ a:hover {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
+/* line 56, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .hue_block:hover {
   background-color: #178bae; }
 
 /**** IMAGE HOVER COLOUR ****/
+/* line 59, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .hover_img:hover, .hover_colour {
   background: #2980B9 url(../img/zoom.png) no-repeat 50% 50%;
   box-shadow: inset 0 0 0 7px rgba(255, 255, 255, 0.15); }
@@ -108,51 +139,64 @@ a:hover {
 /***************************************************
 	MENU
  ***************************************************/
+/* line 70, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #main_menu .nav > li > a {
   color: #bbb; }
 
+/* line 71, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #main_menu .nav > .active > a, #main_menu .nav > .active > a:hover {
   background: #2980B9;
   color: #fff !important; }
 
+/* line 72, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #main_menu .nav > li > a:hover {
   background: transparent;
   color: #fff !important; }
 
+/* line 73, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .dropdown-menu {
   background: #323A45; }
 
+/* line 74, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .dropdown-menu li a {
   color: #bbb; }
 
+/* line 79, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a, .nav > li > a:focus {
   text-decoration: none;
   color: #fff;
   background: transparent !important; }
 
+/* line 80, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .navbar-toggle {
   color: #2980B9;
   background-color: #252525; }
 
+/* line 81, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .navbar-toggle > .btn:hover, .navbar-toggle > .btn:focus {
   color: #fff;
   text-decoration: none; }
 
+/* line 82, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .navbar-toggle:hover {
   color: #fff;
   background-color: #2980B9; }
 
 /**** INDEX BOX ICONS ****/
+/* line 85, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .intro-icon-large {
   color: #2980B9; }
 
+/* line 86, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .tile.tile-hot:before {
   background: url("../img/red_ribbon.png") 0 0 no-repeat; }
 
 /**** TEAM MEMBER COLOUR BORDERS ****/
+/* line 90, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .th {
   background: #2BA6CB; }
 
+/* line 91, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .th:hover {
   background: #2980B9; }
 
@@ -160,77 +204,96 @@ a:hover {
 	ABOUT PAGE
  ***************************************************/
 /* Progress Bars */
+/* line 98, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .progress .bar {
   background: #2980B9; }
 
 /* About Info Bottom Strip */
+/* line 101, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .strip {
   background-color: #e9e6e1; }
 
 /* Big Button */
+/* line 104, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .big_button {
   display: block;
   background: #e04a40;
   color: #fff;
   box-shadow: 0 5px 0px #b1453e; }
 
+/* line 112, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .big_button a {
   color: #fff;
   opacity: 1; }
 
+/* line 113, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .big_button:hover {
   color: #fff;
   background: #ee574d;
   box-shadow: 0 5px 0px #9e3e37; }
 
+/* line 120, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .big_button:active {
   color: #fff;
   background: #c23c33;
   box-shadow: 0 3px 0px #652824; }
 
+/* line 127, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .big_button:visited, .big_button:focus {
   color: #fff; }
 
 /***************************************************
 	TESTIMONIALS
  ***************************************************/
+/* line 134, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial1, .testimonial2, .testimonial3 {
   background-color: #34495E;
   color: #bbb; }
 
+/* line 135, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial1:after, .testimonial2:after, .testimonial3:after {
   border-top-color: #34495E; }
 
+/* line 136, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial2 {
   background-color: #E9E6E1;
   color: #555; }
 
+/* line 137, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial2:after {
   border-top-color: #E9E6E1; }
 
+/* line 138, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial3 {
   background-color: #2BA6CB;
   color: #fff; }
 
+/* line 139, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial3:after {
   border-top-color: #2BA6CB; }
 
+/* line 140, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .quote_sections_hue {
   background: #2BA6CB; }
 
+/* line 141, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .quote_sections_dark {
   background: #2C3E50; }
 
+/* line 142, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .quote_sections_light {
   background: #E9E6E1; }
 
 /* Testimonial Icons */
+/* line 145, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial-icon-disc, .testimonial-icon-disc2, .testimonial-icon-disc3 {
   background-color: #2BA6CB; }
 
+/* line 146, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial-icon-disc2 {
   background-color: #2C3E50; }
 
+/* line 147, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .testimonial-icon-disc3 {
   background-color: #E9E6E1; }
 
@@ -238,42 +301,52 @@ a:hover {
 	BLOG
  ***************************************************/
 /* Date */
+/* line 155, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn-blog1 {
   background: #2980B9;
   color: #fff; }
 
 /* Small Date */
+/* line 157, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn-blog2 {
   background: #2980B9;
   color: #fff; }
 
+/* line 158, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .btn-blog1:hover, .btn-blog2:hover {
   background: #2980B9;
   color: #fff; }
 
+/* line 159, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 a.com_no {
   color: #fff; }
 
+/* line 160, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .post_link a:hover, .read_more a:hover {
   color: #2BA6CB; }
 
 /* Pager */
+/* line 163, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pager li > a, .pager li > span {
   color: #fff;
   background: #2BA6CB; }
 
+/* line 169, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pager li > a:hover, .pager li > a:focus, .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
   color: #fff;
   background: #2980B9; }
 
 /* Pagination */
+/* line 172, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pagination ul > li > a, .pagination ul > li > span {
   border: 2px solid #2BA6CB; }
 
+/* line 176, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {
   background-color: #2BA6CB;
   color: #fff; }
 
+/* line 181, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pagination ul > .active > a, .pagination ul > .active > span {
   background-color: #2BA6CB;
   color: #fff;
@@ -282,25 +355,31 @@ a.com_no {
 /***************************************************
 	CONTACT
  ***************************************************/
+/* line 191, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .required {
   color: #19C1C3; }
 
+/* line 192, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #ajax-contact-form input.btn-form:visited, #ajax-contact-form input.btn-form:focus {
   background: #2BA6CB; }
 
 /***************************************************
 	FOOTER
  ***************************************************/
+/* line 198, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #footer {
   background-color: #2980B9; }
 
+/* line 199, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #footer2 {
   background: #323A45;
   color: #999; }
 
+/* line 200, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .copyright a {
   color: #888; }
 
+/* line 201, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .copyright a:hover {
   color: #777; }
 
@@ -308,53 +387,64 @@ a.com_no {
 	PORTFOLIO, GALLERY & THUMB CAROUSELS
  ***************************************************/
 /**** PORTFOLIO ****/
+/* line 209, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #filters li a, #filters2 li a {
   color: #555;
   border: 2px solid #767676; }
 
+/* line 210, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #filters li a.selected, #filters2 li a.selected {
   background: #2BA6CD;
   color: #fff;
   border: 2px solid #2BA6CD; }
 
+/* line 211, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 #filters li a:hover, #filters2 li a:hover {
   color: #fff;
   border: 2px solid #34495E;
   background: #34495E; }
 
 /**** GALLERY ****/
+/* line 214, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .holder a {
   color: #555;
   border: 2px solid #767676; }
 
+/* line 215, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .holder a:hover {
   color: #fff;
   border: 2px solid #34495E;
   background: #34495E; }
 
+/* line 216, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .holder a.jp-previous, .holder a.jp-next, .holder a.jp-disabled, .holder a.jp-disabled, focus:a.jp-disabled {
   border: 2px solid #767676;
   color: #767676; }
 
+/* line 220, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .holder a.jp-current {
   background: #2BA6CD;
   color: #fff;
   border: 2px solid #2BA6CD; }
 
+/* line 221, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 a.jp-disabled:hover, .holder a.jp-next:hover {
   color: #fff;
   border: 2px solid #34495E;
   background: #34495E; }
 
 /* CAROUSELS */
+/* line 224, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .slider-title {
   background-color: #34495E;
   color: #bbb; }
 
+/* line 225, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .slider-title:after {
   border-top-color: #34495E; }
 
 /* Carousel Arrows*/
+/* line 228, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .widget-scroll-prev:hover, .widget-scroll-next:hover, .widget-scroll-prev2:hover, .widget-scroll-next2:hover {
   background: #2BA6CB; }
 
@@ -362,55 +452,70 @@ a.jp-disabled:hover, .holder a.jp-next:hover {
 	404 PAGE, PRICING TABLE, ACCORDIAN, TABS
  ***************************************************/
 /**** 404 PAGE ****/
+/* line 236, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .screen-bg {
   background-color: #19C1C3; }
 
 /**** PRICING TABLE ****/
+/* line 239, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pricing-header-row-1 {
   background-color: #323A45; }
 
+/* line 240, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pricing-header-row-2 {
   background-color: #E7E7E7; }
 
+/* line 241, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pricing-content-row-odd {
   background-color: #eee;
   color: #555; }
 
+/* line 242, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pricing-content-row-even {
   background-color: #E7E7E7;
   color: #555; }
 
+/* line 243, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pricing-footer {
   background-color: #323A45; }
 
+/* line 244, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .pricing-table h3 {
   color: #2BA6CB; }
 
+/* line 245, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .tile2.tile-hot:before {
   background: url("../img/red_ribbon.png") 0 0 no-repeat; }
 
 /**** ACCORDION ****/
+/* line 248, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .panel-heading {
   background-color: #2BA6CB !important;
   color: #fff !important; }
 
+/* line 249, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .panel-heading a:hover {
   color: #fff; }
 
+/* line 250, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .panel-heading .accordion-toggle:after {
   color: #fff; }
 
+/* line 251, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .panel {
   background-color: #f6f6f6 !important; }
 
 /**** TABS ****/
+/* line 254, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .nav-tabs {
   border-bottom: 1px solid #ccc; }
 
+/* line 255, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .nav-tabs a {
   color: #fff !important;
   background-color: #2BA6CB !important; }
 
+/* line 256, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .nav-tabs .active a, .nav-tabs a:hover, .nav-tabs .active a:focus {
   background-color: #34495E !important; }
 
@@ -418,32 +523,40 @@ a.jp-disabled:hover, .holder a.jp-next:hover {
 	TIMELINE
  ***************************************************/
 /* The line */
+/* line 263, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline:before {
   background: #afdcf8; }
 
 /* The date/time */
+/* line 265, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
   color: #3594cb; }
 
+/* line 266, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
   color: #6cbfee; }
 
 /* Right content */
+/* line 268, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline > li .cbp_tmlabel {
   background: #3594cb;
   color: #fff; }
 
+/* line 269, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
   background: #6cbfee; }
 
 /* The triangle */
+/* line 271, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline > li .cbp_tmlabel:after {
   border-right-color: #3594cb; }
 
+/* line 272, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
   border-right-color: #6cbfee; }
 
 /* The icons */
+/* line 274, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .cbp_tmtimeline > li .cbp_tmicon {
   color: #fff;
   background: #46a4da;
@@ -451,12 +564,14 @@ a.jp-disabled:hover, .holder a.jp-next:hover {
 
 /* Media Queries */
 @media screen and (max-width: 47.2em) {
+  /* line 277, /Users/Joanna/Website-Theme/src/scss/colour.scss */
   .cbp_tmtimeline > li .cbp_tmlabel:after {
     border-bottom-color: #3594CB; }
+  /* line 278, /Users/Joanna/Website-Theme/src/scss/colour.scss */
   .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
     border-bottom-color: #6CBFEE; } }
 
 /**** ICONS EXAMPLE BG HOVER ****/
+/* line 282, /Users/Joanna/Website-Theme/src/scss/colour.scss */
 .fontawesome-icon-list .fa-hover a:hover {
   background-color: #2BA6CB; }
-
