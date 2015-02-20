@@ -812,13 +812,14 @@ a.nivo-prevNav {
 .team_bio {
   width: 80%;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 150px; }
 
 hr.team-line {
   border: 0;
-  background: url(../img/lines.png) repeat;
+  background: url(../assets/img/lines.png) repeat;
   height: 10px;
-  width: 160px;
+  width: 70%;
   margin: 25px auto 25px; }
 
 /*************************************************************
