@@ -22,12 +22,10 @@ Purchase:  http://themeforest.net/user/josweb
 /*-----------------------------------------------------------------------------------*/
 /*	01: GENERAL STYLING
 /*-----------------------------------------------------------------------------------*/
-/* line 27, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 html {
   position: relative;
   min-height: 100%; }
 
-/* line 29, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 body {
   margin: 0;
   padding: 0;
@@ -40,7 +38,6 @@ body {
   margin-bottom: 100px; }
 
 /**** PAGE CONTAINERS ****/
-/* line 42, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .header {
   padding: 0 0;
   margin: 0 auto;
@@ -48,199 +45,156 @@ body {
   width: 100%;
   z-index: 1000; }
 
-/* line 49, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .inner_content {
   padding: 20px 0 0; }
 
-/* line 50, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .wrapper {
   margin: 0px auto;
   padding: 0 0 60px; }
 
-/* line 51, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #banner {
   width: 100%; }
 
-/* line 52, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .intro_wrapper {
   margin: 0 auto;
   padding: 0 0 40px; }
 
-/* line 53, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .intro_wrapper2 {
   margin: -20px auto 0;
   padding: 0 0 40px; }
 
 /**** GENERAL ****/
-/* line 56, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 img {
   height: auto;
   max-width: 100%;
   vertical-align: top;
   ms-interpolation-mode: bicubic;
-  opacity: 1.0;
+  opacity: 1;
   width: auto\9; }
 
-/* line 57, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a, input, select, textarea {
   outline: none;
   text-decoration: none; }
 
-/* line 58, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a, li {
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
-/* line 59, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a, a:visited {
   text-decoration: none !important; }
 
-/* line 60, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 :focus {
   outline: 0 !important; }
 
-/* line 61, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a:hover, a:active, a:focus {
   outline: 0 !important; }
 
-/* line 62, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 p {
   margin-bottom: 15px; }
 
-/* line 63, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 span {
   font-weight: 700; }
 
-/* line 64, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 small {
   letter-spacing: 0.2em;
   font-size: 11px; }
 
-/* line 65, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .clear {
   height: 0;
   clear: both;
   font-size: 0; }
 
-/* line 66, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pull-right {
   margin-left: 12px; }
 
-/* line 67, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pull-left {
   margin-right: 12px; }
 
-/* line 68, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .center {
   text-align: center;
   margin: 0 auto; }
 
-/* line 69, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .label, .badge {
   text-shadow: none; }
 
-/* line 70, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 hr {
   border-top: 1px solid #ccc;
   border-bottom: 0; }
 
-/* line 71, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .popover {
   text-align: left; }
 
-/* line 72, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .fa {
   text-rendering: auto; }
 
-/* line 73, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .zocial {
   border-radius: 4px;
   padding: 2px;
   margin-right: 5px; }
 
-/* line 80, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .media img {
   margin-top: 5px; }
 
-/* line 81, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .media-body a {
   color: #888; }
 
-/* line 82, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .media-body a:hover {
   color: #777; }
 
-/* line 83, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .big {
   font-size: 100px; }
 
-/* line 84, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .myslider, .myslider1, .myslider2, .projects {
   display: none; }
 
-/* line 86, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .well {
   border: 0px none;
   margin-top: 10px;
   box-shadow: none; }
 
 /* Icons List */
-/* line 97, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .fa-li {
   margin-left: -8px;
   padding-top: 2px; }
 
 /* Padding */
-/* line 100, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad90 {
   padding-top: 90px; }
 
-/* line 101, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad45 {
   padding-top: 45px; }
 
-/* line 102, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad30 {
   padding-top: 30px; }
 
-/* line 103, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad25 {
   padding-top: 25px; }
 
-/* line 104, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad20 {
   padding-top: 20px; }
 
-/* line 105, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad15 {
   padding-top: 15px; }
 
-/* line 106, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad10 {
   padding-top: 10px; }
 
-/* line 107, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad5 {
   padding-top: 5px; }
 
 /* Margins */
-/* line 110, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .marg-bottom5 {
   margin-bottom: 5px; }
 
-/* line 111, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .marg-left5 {
   margin-left: 5px; }
 
-/* line 112, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .marg-right5 {
   margin-right: 5px; }
 
-/* line 113, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .but_marg {
   margin-left: 3px; }
 
 /* Video */
-/* line 116, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .vendor {
   position: relative;
   padding-bottom: 56.25%;
@@ -248,7 +202,6 @@ hr {
   height: 0;
   margin: 0 0; }
 
-/* line 123, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .vendor iframe {
   position: absolute;
   top: 0;
@@ -256,79 +209,65 @@ hr {
   width: 100%;
   height: 100%; }
 
-/* line 130, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 iframe {
   border: 0; }
 
-/* line 131, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 video {
   width: 100%;
   height: auto; }
 
-/* line 132, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .soundcloud {
   width: 100%;
   height: 166px; }
 
 /**** LINKS ****/
-/* line 135, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   outline: none; }
 
-/* line 143, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a:hover {
   text-decoration: none; }
 
 /**** IMAGES ****/
 /* Image Hover Colour */
-/* line 147, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .hover_img:hover, .hover_colour {
   position: relative;
   z-index: 1; }
 
 /**** BUTTONS ****/
-/* line 150, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn {
   border: 0;
-  -webkit-transition: background-color .4s ease-in;
-  transition: background-color .4s ease-in; }
+  -webkit-transition: background-color 0.4s ease-in;
+  transition: background-color 0.4s ease-in; }
 
-/* line 157, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn-custom {
   font-size: 14px;
   padding: 12px 15px 14px;
   margin-top: 10px; }
 
-/* line 158, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn-outline {
   background-color: transparent;
   border: 2px solid #fff;
   padding: 12px 15px 14px;
   border-radius: 0px !important; }
 
-/* line 166, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn-outline:hover {
   background-color: #3e4957; }
 
-/* line 168, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .portfolio-links i {
   border-radius: 3px; }
 
-/* line 173, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .portfolio-links a {
   margin-right: 5px !important; }
 
 /**** TYPOGRAPHY ****/
-/* line 177, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: -0.25px;
   font-family: 'Lato', sans-serif; }
 
-/* line 178, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h1.title {
   font-size: 40px;
   line-height: 45px;
@@ -336,51 +275,42 @@ h1.title {
   margin: 0 0 30px;
   text-align: left; }
 
-/* line 179, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h1 {
   font-size: 24px;
   line-height: 40px !important; }
 
-/* line 180, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h2 {
   font-size: 21px;
   line-height: 30px !important; }
 
-/* line 181, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h3 {
   font-size: 18px;
   line-height: 25px !important; }
 
-/* line 182, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h4 {
   font-size: 16px;
   line-height: 25px !important;
   margin-bottom: 10px; }
 
-/* line 183, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h5 {
   font-size: 15px;
   line-height: 22px !important;
   margin-bottom: 10px; }
 
-/* line 184, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h6 {
   font-size: 14px;
   line-height: 22px !important;
   margin-bottom: 10px; }
 
-/* line 185, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h1.intro {
   line-height: 40px;
   font-weight: 300; }
 
-/* line 186, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .lead {
   font-size: 18px;
   line-height: 24px; }
 
 /**** WELCOME TEXT ****/
-/* line 189, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .welcome_index {
   width: 80%;
   font: 32px/50px 'Lato', sans-serif;
@@ -391,7 +321,6 @@ h1.intro {
   text-align: center; }
 
 /**** DROP CAPS ****/
-/* line 200, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropcap, .dropcap2 {
   font-weight: 700;
   display: block;
@@ -402,18 +331,15 @@ h1.intro {
   text-transform: uppercase; }
 
 /**** DRIBBBLE ****/
-/* line 211, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .shotList {
   margin-left: -40px;
   display: none; }
 
-/* line 212, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .shotList img {
   width: 32.78%;
   padding: 0 0% 5px 0;
   margin-right: 5px; }
 
-/* line 213, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .shotList img:hover {
   opacity: 0.9;
   -webkit-transition: all 0.3s ease-in-out;
@@ -423,7 +349,6 @@ h1.intro {
 /*	02: MENU
 /*-----------------------------------------------------------------------------------*/
 /**** LOGO ****/
-/* line 227, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .logo {
   float: left;
   margin: 0px 0px 0 -15px !important;
@@ -432,32 +357,26 @@ h1.intro {
   -webkit-transition: all 0.3s ease-in;
           transition: all 0.3s ease-in; }
 
-/* line 236, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .logo:hover {
-  opacity: .80; }
+  opacity: 0.8; }
 
-/* line 238, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #main_menu {
   z-index: 999; }
 
-/* line 239, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .navbar {
   padding: 0;
   margin: 0;
   background: transparent;
   border: 0px none; }
 
-/* line 240, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #main_menu .nav {
   float: right;
   margin: 18px 0 0 0; }
 
-/* line 241, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .navbar .nav.pull-right {
   float: right;
   margin-right: -30px !important; }
 
-/* line 243, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #main_menu .nav > li > a {
   font-weight: 400;
   letter-spacing: 2px;
@@ -466,16 +385,13 @@ h1.intro {
   text-align: center !important;
   text-transform: uppercase; }
 
-/* line 252, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #main_menu .nav > .active > a, #main_menu .nav > .active > a:hover {
   webkit-border-radius: 4px 4px 0px 0px;
   border-radius: 4px 4px 0px 0px; }
 
-/* line 257, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #main_menu .nav > .active > a:focus {
   background: transparent; }
 
-/* line 259, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropdown-menu {
   display: none;
   left: -40px !important;
@@ -488,7 +404,6 @@ h1.intro {
   box-shadow: none !important;
   border: 0px none !important; }
 
-/* line 273, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropdown-menu li a {
   border: 0;
   display: block;
@@ -497,30 +412,24 @@ h1.intro {
   text-align: left;
   text-transform: none; }
 
-/* line 281, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropdown-menu > li:first-child {
   margin-top: 4px; }
 
-/* line 282, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropdown-menu > li:last-child {
   margin-bottom: 6px; }
 
-/* line 284, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropdown-menu .sub-menu {
   visibility: hidden;
   left: 175px !important; }
 
-/* line 285, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropdown-menu li:hover .sub-menu {
   visibility: visible; }
 
-/* line 286, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .dropdown-menu .sub-menu a {
   -webkit-transition-property: none !important;
   transition-property: none !important; }
 
 /**** TOGGLE ****/
-/* line 295, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .navbar-toggle {
   position: absolute;
   top: 10px;
@@ -531,11 +440,24 @@ h1.intro {
   border-radius: 4px;
   line-height: 0px; }
 
-/* line 307, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
+.navbar-submenu-toggle {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  font-size: 10px;
+  border: 0px;
+  width: 23px;
+  height: 23px;
+  border-radius: 2px;
+  line-height: 0px; }
+
+@media (min-width: 768px) {
+  .navbar-submenu-toggle {
+    display: none; } }
+
 .nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
   background-color: transparent; }
 
-/* line 309, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .navbar-collapse.in {
   overflow-y: visible; }
 
@@ -545,54 +467,44 @@ h1.intro {
 /***************************************************
 	SLIDER REVOLUTION - index
 ***************************************************/
-/* line 319, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-banner-container {
   width: 100%;
   position: relative;
   padding: 0; }
 
-/* line 320, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .banner {
   width: 100%;
   position: relative; }
 
-/* line 321, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-banner-container li {
   visibility: hidden; }
 
-/* line 322, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-text {
   color: #fff;
   margin: 40px;
   font-size: 17px;
   line-height: 26px; }
 
-/* line 323, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-title {
   margin: 0px;
   color: #fff; }
 
-/* line 324, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-left {
   margin-left: 20px; }
 
-/* line 325, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-right {
   margin-right: 20px; }
 
-/* line 326, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-title.big {
   font-size: 40px;
   line-height: 44px !important; }
 
-/* line 327, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-title-sub {
   font-size: 30px;
   color: #fff;
   letter-spacing: 3px;
   font-weight: 400; }
 
-/* line 328, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-title.bold, .rev-title2.bold {
   font-size: 60px !important;
   font-weight: 700 !important;
@@ -601,34 +513,28 @@ h1.intro {
   letter-spacing: 6px;
   padding: 8px 15px; }
 
-/* line 336, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .rev-title2.bold {
   text-transform: none;
   letter-spacing: 2px;
   padding: 0 0; }
 
-/* line 337, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-caption.bg {
   background: #323A45;
   padding: 18px 22px 22px; }
 
-/* line 338, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .big_white {
   color: #eee;
   font-size: 18px !important;
   background: #323A45;
   padding: 20px !important; }
 
-/* line 339, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .shadow {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
 
-/* line 340, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-banner-container .btn-outline, .tp-banner-container .btn-outline:hover {
   color: white; }
 
 /**** HTML5 VIDEO****/
-/* line 344, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-caption.large_bold_title {
   font: 75px/85px 'Lato', sans-serif;
   font-weight: 700;
@@ -637,7 +543,6 @@ h1.intro {
   letter-spacing: 4px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
 
-/* line 352, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-caption.medium_text_shadow {
   font: 25px/25px 'Lato', sans-serif !important;
   font-weight: 600;
@@ -645,16 +550,13 @@ h1.intro {
   text-align: center;
   text-shadow: #000 0px 5px 10px; }
 
-/* line 359, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .fullscreenvideo {
   margin-top: -15px !important; }
 
 /**** BULLETS ****/
-/* line 362, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-bullets {
   height: 21px; }
 
-/* line 363, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-bullets .bullet {
   cursor: pointer;
   position: relative !important;
@@ -664,7 +566,7 @@ h1.intro {
   box-shadow: none;
   width: 5px !important;
   height: 5px !important;
-  border: 8px solid transparent !important;
+  border: 8px solid rgba(0, 0, 0, 0) !important;
   display: inline-block;
   margin-right: 5px !important;
   margin-bottom: 0px !important;
@@ -675,11 +577,9 @@ h1.intro {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box; }
 
-/* line 388, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-bullets .bullet.last {
   margin-right: 0px; }
 
-/* line 389, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tp-bullets .bullet:hover, .tp-bullets .bullet.selected {
   box-shadow: none;
   background: #aaa !important;
@@ -690,33 +590,28 @@ h1.intro {
 /***************************************************
 	NIVO SLIDER
 ***************************************************/
-/* line 403, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo {
   margin-top: 0px;
   padding-top: 0px; }
 
-/* line 404, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivoSlider {
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden; }
 
-/* line 405, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivoSlider img {
   position: absolute;
   top: 0px;
   left: 0px;
   max-width: none; }
 
-/* line 406, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-main-image {
   display: block !important;
   position: relative !important;
   width: 100% !important; }
 
 /* If an image is wrapped in a link */
-/* line 408, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivoSlider a.nivo-imageLink {
   position: absolute;
   top: 0px;
@@ -730,7 +625,6 @@ h1.intro {
   display: none; }
 
 /* The slices and boxes in the Slider */
-/* line 421, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-slice {
   display: block;
   position: absolute;
@@ -738,57 +632,46 @@ h1.intro {
   height: 100%;
   top: 0; }
 
-/* line 428, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-box {
   display: block;
   position: absolute;
   z-index: 5;
   overflow: hidden; }
 
-/* line 429, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-box img {
   display: block; }
 
-/* line 430, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-html-caption {
   display: none; }
 
-/* line 431, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-controlNav {
   display: none; }
 
-/* line 432, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-box {
   width: 10px; }
 
-/* line 433, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-wrapper {
   position: relative;
   margin: 0 auto 20px auto; }
 
-/* line 434, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivoSlider {
   position: relative;
   background: transparent url(../img/ajax-loader.gif) no-repeat 50% 50%;
   margin: 0 auto; }
 
-/* line 439, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivoSlider img {
   position: a bsolute;
   top: 0px;
   left: 0;
   display: none; }
 
-/* line 440, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivoSlider a {
   border: 0;
   display: block; }
 
-/* line 441, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-controlNav a {
   display: none; }
 
-/* line 442, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-directionNav a {
   display: block;
   position: absolute !important;
@@ -804,20 +687,16 @@ h1.intro {
   background: url("../img/slider_nav.png") no-repeat 0 0;
   opacity: 0.6; }
 
-/* line 455, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a.nivo-nextNav:hover, .nivo-prevNav:hover {
   opacity: 1; }
 
-/* line 456, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a.nivo-nextNav {
   background-position: -33px 0px;
   right: 0px; }
 
-/* line 457, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 a.nivo-prevNav {
   right: 33px; }
 
-/* line 458, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nivo-caption {
   display: block;
   position: absolute;
@@ -838,7 +717,6 @@ a.nivo-prevNav {
 	INDEX INTRO BOXES
  ***************************************************/
 /* Index Boxes */
-/* line 479, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tile {
   background-color: #e3e1e1;
   border-radius: 6px;
@@ -847,7 +725,6 @@ a.nivo-prevNav {
   text-align: center;
   margin-bottom: 25px; }
 
-/* line 489, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tile.tile-hot:before {
   background-size: 82px 82px;
   content: "";
@@ -858,61 +735,52 @@ a.nivo-prevNav {
   width: 82px; }
 
 @media (min-width: 992px) {
-  /* line 499, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .tile.tile-frontpage {
     min-height: 330px; } }
 
-/* line 504, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tile p {
   margin: 10px 0 22px 0;
   font: 13px/22px 'Lato', sans-serif; }
 
-/* line 505, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tile-image {
   height: 100px;
   margin: 25px 0 15px;
   vertical-align: bottom; }
 
-/* line 506, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tile-title {
   font-size: 18px;
   margin: 0; }
 
 /* Index Box Icons */
-/* line 510, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .intro-icon {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 517, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .intro-icon-disc.cont-large {
   width: 60px;
   height: 60px;
   margin: 0 auto; }
 
-/* line 518, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .intro-icon-large {
   font-size: 32px;
   margin: 14px 0 0 2px;
   text-align: center; }
 
-/* line 520, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .intro-icon-disc {
-  webkit-transition: border .5s;
-  -webkit-transition: border .5s;
-          transition: border .5s;
+  webkit-transition: border 0.5s;
+  -webkit-transition: border 0.5s;
+          transition: border 0.5s;
   border-radius: 50%;
   box-shadow: 0 0 0 30px transparent;
   background: rgba(255, 255, 255, 0.4);
-  -webkit-transition: box-shadow .6s ease-in-out;
-  transition: box-shadow .6s ease-in-out; }
+  -webkit-transition: box-shadow 0.6s ease-in-out;
+  transition: box-shadow 0.6s ease-in-out; }
 
-/* line 539, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .intro-icon-disc:hover {
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
-  -webkit-transition: box-shadow .4s ease-in-out;
-  transition: box-shadow .4s ease-in-out; }
+  -webkit-transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out; }
 
 /*-----------------------------------------------------------------------------------*/
 /*	04: PAGES
@@ -920,7 +788,6 @@ a.nivo-prevNav {
 /***************************************************
 	0I: TEAM
  ***************************************************/
-/* line 555, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .th {
   border: 2px solid transparent;
   -moz-transition: all 0.3s ease;
@@ -931,7 +798,6 @@ a.nivo-prevNav {
   padding: 10px;
   border-radius: 4px; }
 
-/* line 567, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .th:hover {
   border: 2px solid transparent;
   -ms-transform: scale(1.03);
@@ -940,12 +806,10 @@ a.nivo-prevNav {
   -o-transform: scale(1.03);
   -moz-transform: scale(1.03); }
 
-/* line 575, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .team_ic a {
   margin: 0 2px;
   font-size: 12px; }
 
-/* line 576, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .team_ic:hover {
   -ms-transform: translate(0, -4px);
       transform: translate(0, -4px);
@@ -955,20 +819,17 @@ a.nivo-prevNav {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
-/* line 587, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .team_sections {
   display: block;
   padding: 15px 5px;
   text-align: center; }
 
-/* line 588, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .team_bio {
   width: 80%;
   text-align: center;
   margin: 0 auto;
   height: 150px; }
 
-/* line 589, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 hr.team-line {
   border: 0;
   background: url(../assets/img/lines.png) repeat;
@@ -980,7 +841,6 @@ hr.team-line {
 	II: ABOUT PAGE
  *************************************************************/
 /* Progress Bars */
-/* line 601, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .progress {
   background: #E9E6E1;
   color: #fff;
@@ -990,7 +850,6 @@ hr.team-line {
   box-shadow: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
-/* line 614, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .progress .bar {
   text-align: right;
   padding: 0 20px 0 0;
@@ -999,12 +858,10 @@ hr.team-line {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
 /* About Info Bottom Strip */
-/* line 625, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .strip {
   padding: 45px 0 40px;
   text-align: center; }
 
-/* line 626, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .strip h1 {
   letter-spacing: 0.25em;
   color: #555;
@@ -1012,7 +869,6 @@ hr.team-line {
   font-size: 20px;
   margin-bottom: 0.5em; }
 
-/* line 633, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .about_strip {
   width: 80%;
   text-align: center;
@@ -1020,7 +876,6 @@ hr.team-line {
   line-height: 30px !important; }
 
 /* big button */
-/* line 636, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .big_button {
   display: block;
   float: none;
@@ -1037,18 +892,15 @@ hr.team-line {
 /***************************************************
 	III: SERVICES - CLIENTS
  ***************************************************/
-/* line 656, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .client img {
   background-color: #e9e6e1;
   margin-bottom: 25px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-/* line 663, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .client img:hover {
   background-color: #d3cdc4; }
 
-/* line 664, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .client_intro {
   width: 70%;
   text-align: center;
@@ -1058,7 +910,6 @@ hr.team-line {
 /***************************************************
 	IV: TESTIMONIALS
  ***************************************************/
-/* line 669, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .testimonial1, .testimonial2, .testimonial3 {
   position: relative;
   padding: 20px 20px 15px;
@@ -1066,7 +917,6 @@ hr.team-line {
   font-size: 13px;
   border-radius: 4px; }
 
-/* line 678, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .testimonial1:after, .testimonial2:after, .testimonial3:after {
   top: 100%;
   border: solid transparent;
@@ -1076,12 +926,10 @@ hr.team-line {
   position: absolute;
   pointer-events: none; }
 
-/* line 686, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .testimonial1:after, .testimonial2:after, .testimonial3:after {
   border-width: 6px;
   left: 48%; }
 
-/* line 688, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .quote_sections, .quote_sections_hue, .quote_sections_dark, .quote_sections_light {
   display: block;
   padding: 15px 15px 5px;
@@ -1090,13 +938,11 @@ hr.team-line {
   border-radius: 4px; }
 
 /* Testimonial Icons */
-/* line 699, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .testimonial-icon-disc, .testimonial-icon-disc2, .testimonial-icon-disc3 {
   border-radius: 4px;
   text-align: center;
   vertical-align: middle; }
 
-/* line 709, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .testimonial-icon-disc.cont-large, .testimonial-icon-disc2.cont-large, .testimonial-icon-disc3.cont-large, .testimonial-icon-disc4.cont-large {
   padding: 10px 0 0 0;
   text-align: center;
@@ -1105,7 +951,6 @@ hr.team-line {
   height: 38px;
   margin: 0px auto 10px auto; }
 
-/* line 716, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .testimonial-icon-large {
   font-size: 30px;
   margin-left: 1px;
@@ -1115,7 +960,6 @@ hr.team-line {
 	V: BLOG
  ***************************************************/
 /* Date */
-/* line 722, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn-blog1 {
   margin: 0 0 10px;
   width: 55px;
@@ -1123,42 +967,34 @@ hr.team-line {
   padding: 8px 0; }
 
 /* Small Date */
-/* line 729, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn-blog2 {
   margin: 0 0 10px;
   font-size: 12px;
   padding: 8px 10px 10px; }
 
-/* line 734, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn-blog2 i {
   margin: 0 3px 0 5px;
   font-size: 17px; }
 
-/* line 736, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h1.post_intro {
   font-size: 25px;
   line-height: 35px;
   font-weight: 400; }
 
-/* line 737, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .blog_slide {
   margin-bottom: -20px; }
 
-/* line 738, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .blog_slide1 {
   margin-bottom: -10px; }
 
-/* line 739, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .post_link {
   font-weight: 400;
   line-height: 26px; }
 
-/* line 740, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .post_link a {
   color: #555; }
 
 /* Meta */
-/* line 743, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .post-meta ul {
   margin: -5px 0 15px 0;
   padding: 0 0;
@@ -1167,38 +1003,30 @@ h1.post_intro {
   font-size: 11px;
   clear: both; }
 
-/* line 751, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .post-meta li {
   margin: 0;
   display: inline; }
 
-/* line 752, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .post-meta a {
   color: #555; }
 
-/* line 753, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .post-meta a:hover {
   color: #747474; }
 
-/* line 754, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .muted {
   color: #888; }
 
-/* line 756, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .read_more {
   font-weight: 400;
   letter-spacing: 1.5px; }
 
-/* line 757, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .read_more a:hover {
   color: #555; }
 
-/* line 758, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .sidebar p, .sidebar .media-body p {
   font-size: 13px; }
 
 /* Search */
-/* line 761, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 input[type="text"], input[type="search"] {
   border: 2px solid #d8d3cb;
   color: #888;
@@ -1206,64 +1034,52 @@ input[type="text"], input[type="search"] {
   box-shadow: none;
   padding: 8px; }
 
-/* line 773, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .avatar {
   float: left;
   margin: 0 10px 0 0; }
 
-/* line 774, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pad_author {
   margin: 18px 20px 10px 0px; }
 
-/* line 775, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .media-body {
   margin-bottom: 5px; }
 
 /* Flickr */
-/* line 778, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .flickrs2 {
   margin: 0 0 0 -40px;
   padding-right: 0; }
 
-/* line 779, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .FlickrImagesBlog li {
   float: left;
   margin: 0 5px 12px 0;
   width: 30.3%;
   list-style-type: none; }
 
-/* line 780, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .FlickrImagesBlog img {
   border-radius: 3px;
-  -webkit-transition: opacity .2s linear;
-  transition: opacity .2s linear; }
+  -webkit-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear; }
 
 /* Pager */
-/* line 790, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pager li > a, .pager li > span {
   display: inline-block;
   padding: 5px 10px;
   border: 0; }
 
-/* line 796, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pager li > a:hover, .pager li > a:focus, .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
   text-decoration: none; }
 
 /* Pagination */
-/* line 799, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pagination {
   margin: 50px -40px 0px; }
 
-/* line 800, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pagination ul {
   border-radius: 5px;
   box-shadow: none; }
 
-/* line 808, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pagination ul > li {
   display: inline; }
 
-/* line 810, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pagination ul > li > a, .pagination ul > li > span {
   float: left;
   padding: 4px 10px;
@@ -1274,32 +1090,26 @@ input[type="text"], input[type="search"] {
   margin-right: 5px;
   border-radius: 5px; }
 
-/* line 822, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pagination ul > li:first-child > a, .pagination ul > li:first-child > span {
   border-left-width: 2px; }
 
 /***************************************************
 	VI: CONTACT
  ***************************************************/
-/* line 827, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .google-maps {
   height: 400px;
   margin: 0px 0 30px; }
 
-/* line 829, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .contact_form {
   padding: 20px; }
 
-/* line 830, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #ajax-contact-form input, .contact_form textarea {
   border: 0px none;
   box-shadow: none; }
 
-/* line 831, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .contact_form textarea {
   min-height: 200px; }
 
-/* line 833, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .form_info {
   color: #767676;
   text-transform: uppercase;
@@ -1309,7 +1119,6 @@ input[type="text"], input[type="search"] {
   margin-bottom: 8px;
   clear: both; }
 
-/* line 842, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #ajax-contact-form input, #ajax-contact-form textarea {
   border: 2px solid #d8d3cb;
   color: #888;
@@ -1318,11 +1127,9 @@ input[type="text"], input[type="search"] {
   padding: 6px;
   margin-bottom: 8px; }
 
-/* line 854, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .required {
   font-size: 17px; }
 
-/* line 856, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #ajax-contact-form input.btn-form {
   border: 0 none;
   color: #fff;
@@ -1339,7 +1146,6 @@ input[type="text"], input[type="search"] {
   border-radius: 5px;
   text-align: center; }
 
-/* line 874, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .notification_error {
   color: #fff;
   background-color: #333;
@@ -1348,7 +1154,6 @@ input[type="text"], input[type="search"] {
   padding: 10px;
   text-align: left; }
 
-/* line 882, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .notification_ok {
   color: #fff;
   background-color: #333;
@@ -1364,12 +1169,10 @@ input[type="text"], input[type="search"] {
 	VII: FOOTER
  ***************************************************/
 /*Social Icons */
-/* line 898, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .follow_us {
   text-align: center;
   margin: 0 auto; }
 
-/* line 899, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .follow_us a {
   font-size: 50px;
   color: #fff;
@@ -1380,12 +1183,10 @@ input[type="text"], input[type="search"] {
   background: transparent;
   opacity: 0.2; }
 
-/* line 911, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .follow_us a:hover {
-  opacity: 1.0;
+  opacity: 1;
   color: #fff; }
 
-/* line 913, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #footer h1 {
   letter-spacing: 0.25em;
   font-size: 22px;
@@ -1393,7 +1194,6 @@ input[type="text"], input[type="search"] {
   text-transform: uppercase;
   margin-bottom: 0.5em !important; }
 
-/* line 920, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 h3.follow {
   color: #eee;
   width: 50%;
@@ -1401,12 +1201,10 @@ h3.follow {
   font-size: 18px;
   line-height: 40px !important; }
 
-/* line 928, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #footer {
   padding: 40px 0 30px;
   text-align: center; }
 
-/* line 929, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #footer2 {
   text-align: center;
   padding: 39px 0 36px;
@@ -1420,7 +1218,6 @@ h3.follow {
   height: 100px; }
 
 /* Back To Top */
-/* line 943, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .go-top {
   position: fixed;
   bottom: 0.9em;
@@ -1434,7 +1231,6 @@ h3.follow {
   border-radius: 3px;
   z-index: 999; }
 
-/* line 958, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .go-top:hover {
   background-color: rgba(0, 0, 0, 0.6); }
 
@@ -1442,7 +1238,6 @@ h3.follow {
 /*	05: PORTFOLIO, GALLERY, CAROUSEL & THUMB CAROUSELS
 /*-----------------------------------------------------------------------------------*/
 /**** PORTFOLIO ****/
-/* line 965, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .item_description {
   font-size: 13px;
   color: #767676;
@@ -1451,89 +1246,72 @@ h3.follow {
   text-align: center;
   border-bottom: 2px solid #d3cdc4; }
 
-/* line 973, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .item_description a {
   text-transform: uppercase;
   font-weight: 700; }
 
-/* line 974, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .item_description:hover {
   border-bottom: 2px solid #bbb; }
 
-/* line 975, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .item_description a:hover {
   color: #888; }
 
 /* Isotope Filtering */
-/* line 978, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .isotope-item {
   z-index: 2; }
 
-/* line 979, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1; }
 
 /* Isotope CSS3 transition */
-/* line 981, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .isotope, .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s; }
 
-/* line 986, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .isotope {
   -webkit-transition-property: height, width;
   transition-property: height, width; }
 
-/* line 991, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
   transition-property: transform, opacity; }
 
 /* disabling Isotope CSS3 transitions */
-/* line 997, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
 /* End: Recommended Isotope styles */
-/* line 1003, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .isotope.infinite-scrolling {
   -webkit-transition: none;
   transition: none; }
 
-/* line 1008, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .element {
   overflow: hidden;
   position: relative;
   margin-bottom: 20px; }
 
-/* line 1009, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .element img {
   max-width: 100%; }
 
-/* line 1010, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #options {
   padding: 0 0 0px; }
 
-/* line 1011, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #filters2 {
   text-align: center;
   margin: 55px 0 45px; }
 
-/* line 1012, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #filters {
   text-align: left;
   margin: 45px 0px 40px -40px; }
 
-/* line 1013, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #filters li, #filters2 li {
   margin: 0;
   background: none;
   overflow: hidden;
   display: inline-block; }
 
-/* line 1014, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #filters li a, #filters2 li a, .holder a {
   font-size: 12px;
   font-weight: 700;
@@ -1546,17 +1324,14 @@ h3.follow {
   padding: 10px 14px; }
 
 /**** GALLERY ****/
-/* line 1029, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .holder {
   margin: 45px 0 40px; }
 
-/* line 1030, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .holder a:hover {
   color: #fff;
   border: 2px solid #34495E;
   background: #34495E; }
 
-/* line 1031, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 ul#itemContainer {
   list-style: none;
   padding: 0;
@@ -1564,62 +1339,50 @@ ul#itemContainer {
   width: 100%; }
 
 /**** MASONRY GALLERY ****/
-/* line 1035, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #grid-gallery {
   margin-top: 60px; }
 
-/* line 1036, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid-gallery ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 1037, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid-gallery figure {
   margin: 0; }
 
-/* line 1038, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid-gallery figure img {
   display: block;
   width: 100%; }
 
-/* line 1039, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid-gallery figcaption h3 {
   margin: 0;
   padding: 0 0 0.5em; }
 
-/* line 1040, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid-gallery figcaption p {
   margin: 0; }
 
 /* Grid style */
-/* line 1043, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid-wrap {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 0em 0em; }
 
-/* line 1044, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid {
   margin: 0 auto; }
 
-/* line 1045, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid li {
   width: 25%;
   float: left;
   cursor: pointer; }
 
-/* line 1046, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid figure {
   padding: 0px 15px 30px 0; }
 
-/* line 1047, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .grid figcaption {
   background: #e4e4e4;
   padding: 25px; }
 
 /* Slideshow style */
-/* line 1050, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow {
   position: fixed;
   background: rgba(0, 0, 0, 0.8);
@@ -1636,14 +1399,12 @@ ul#itemContainer {
   -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
   transition: opacity 0.5s, visibility 0s 0.5s; }
 
-/* line 1066, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow-open .slideshow {
   opacity: 1;
   visibility: visible;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
-/* line 1067, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow ul {
   width: 100%;
   height: 100%;
@@ -1654,17 +1415,14 @@ ul#itemContainer {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s; }
 
-/* line 1077, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow ul.animatable li {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s; }
 
-/* line 1081, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow-open .slideshow ul {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 1085, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow li {
   width: 660px;
   height: 560px;
@@ -1674,11 +1432,9 @@ ul#itemContainer {
   margin: -280px 0 0 -330px;
   visibility: hidden; }
 
-/* line 1094, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow li.show {
   visibility: visible; }
 
-/* line 1095, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow li:after {
   content: '';
   position: absolute;
@@ -1690,14 +1446,12 @@ ul#itemContainer {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s; }
 
-/* line 1106, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow li.current:after {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity 0.3s, visibility 0s 0.3s;
   transition: opacity 0.3s, visibility 0s 0.3s; }
 
-/* line 1112, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow figure {
   width: 100%;
   height: 100%;
@@ -1705,17 +1459,14 @@ ul#itemContainer {
   border: 50px solid #fff;
   overflow: hidden; }
 
-/* line 1119, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow figcaption {
   padding-bottom: 20px; }
 
-/* line 1120, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow figcaption h3 {
   font-weight: 300;
   font-size: 200%; }
 
 /* Navigation */
-/* line 1123, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow nav span {
   position: fixed;
   z-index: 1000;
@@ -1725,29 +1476,24 @@ ul#itemContainer {
   cursor: pointer;
   font-size: 2.2em; }
 
-/* line 1132, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-prev, .slideshow nav span.nav-next {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
 
-/* line 1137, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-next {
   right: 0; }
 
-/* line 1138, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-close {
   top: 0;
   right: 0;
   padding: 0.5em 1em;
   color: #999; }
 
-/* line 1139, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-prev:hover, .slideshow nav span.nav-next:hover, .slideshow nav span.nav-close:hover {
   opacity: 0.8; }
 
-/* line 1141, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .icon:before, .icon:after {
   font-family: 'FontAwesome';
   speak: none;
@@ -1759,20 +1505,16 @@ ul#itemContainer {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 1152, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 span.nav-prev:before {
   content: "\f060"; }
 
-/* line 1153, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 span.nav-next:before {
   content: "\f061"; }
 
-/* line 1154, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 span.nav-close:before {
   content: "\f00d"; }
 
 /* Info on arrow key navigation */
-/* line 1157, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .info-keys {
   position: fixed;
   top: 10px;
@@ -1786,7 +1528,6 @@ span.nav-close:before {
   letter-spacing: 1px;
   text-align: center; }
 
-/* line 1170, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .info-keys:before, .info-keys:after {
   position: absolute;
   top: 0;
@@ -1797,22 +1538,18 @@ span.nav-close:before {
   line-height: 12px;
   font-size: 12px; }
 
-/* line 1180, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .info-keys:before {
   left: 10px;
   content: "\f104"; }
 
-/* line 1181, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .info-keys:after {
   right: 10px;
   content: "\f105"; }
 
 /**** CAROUSEL ****/
-/* line 1185, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #carousel {
   margin-bottom: 20px; }
 
-/* line 1186, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control {
   position: absolute;
   top: 50%;
@@ -1829,26 +1566,22 @@ span.nav-close:before {
           transition: none;
   border: 0px none;
   border-radius: 0px;
-  opacity: 1.0;
+  opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 1208, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control.right {
   background-position: -102px -33px;
   left: auto;
   right: 15px; }
 
-/* line 1209, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control.right:hover {
   background-position: -102px 0; }
 
-/* line 1210, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control:hover {
   background-position: 0 0; }
 
 /**** THUMBNAIL CAROUSELS ****/
 /* CAROUSELS */
-/* line 1215, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-item {
   position: relative;
   float: left;
@@ -1856,19 +1589,16 @@ span.nav-close:before {
   height: auto;
   min-height: 315px; }
 
-/* line 1224, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-item .slider-image, .slider-item .slider-image a, .slider-item .slider-image img {
   display: block;
   position: relative;
   width: 100%; }
 
-/* line 1227, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-item .slider-image:hover, .slider-item .slider-image a:hover, .slider-item .slider-image img:hover {
   display: block;
   position: relative;
   width: 100%; }
 
-/* line 1229, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-title {
   position: relative;
   padding: 1px 15px 10px;
@@ -1878,7 +1608,6 @@ span.nav-close:before {
   border-radius: 0px 0px 4px 4px;
   min-height: 145px; }
 
-/* line 1241, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-title:after {
   top: 100%;
   border: solid transparent;
@@ -1889,12 +1618,10 @@ span.nav-close:before {
   pointer-events: none;
   min-height: 145px; }
 
-/* line 1250, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-title:after {
   border-width: 6px;
   left: 47%; }
 
-/* line 1251, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-title h3 {
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -1902,16 +1629,13 @@ span.nav-close:before {
   text-transform: uppercase;
   margin-bottom: 2px; }
 
-/* line 1252, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-title h3 a {
   color: #eee; }
 
-/* line 1253, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .slider-title h3 a:hover {
   color: #fff; }
 
 /* Carousel Arrows*/
-/* line 1256, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .widget-scroll-prev, .widget-scroll-next, .widget-scroll-prev2, .widget-scroll-next2 {
   display: block;
   position: absolute;
@@ -1931,12 +1655,10 @@ span.nav-close:before {
   transition: all 0.3s ease;
   outline: none; }
 
-/* line 1279, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .widget-scroll-next {
   right: 20px; }
 
 /* Related Carousel */
-/* line 1283, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 #slider_related .slider-item {
   position: relative;
   float: left;
@@ -1945,17 +1667,14 @@ span.nav-close:before {
   min-height: 150px; }
 
 /* Single Portfolio Page Arrows */
-/* line 1291, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .widget-scroll-prev2 {
   right: 35px;
   top: 0px !important; }
 
-/* line 1292, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .widget-scroll-next2 {
   right: 5px;
   top: 0px !important; }
 
-/* line 1294, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .related_link {
   letter-spacing: 1px;
   color: #767676;
@@ -1964,12 +1683,10 @@ span.nav-close:before {
   margin: 10px auto 0;
   text-transform: uppercase; }
 
-/* line 1302, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .col_full {
   position: relative;
   margin: 20px auto 20px; }
 
-/* line 1303, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .strip2 {
   background-color: #e9e6e1;
   padding: 45px 0 0;
@@ -1979,13 +1696,11 @@ span.nav-close:before {
 /*	06: 404 PAGE, PRICING TABLE, ACCORDIAN, TABS
 /*-----------------------------------------------------------------------------------*/
 /**** 404 PAGE ****/
-/* line 1310, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .screen-bg {
   padding: 50px 0px 30px;
   margin-bottom: 30px; }
 
 /**** PRICING TABLE ****/
-/* line 1313, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tile2 {
   background-color: #e3e1e1;
   border-radius: 6px;
@@ -1994,7 +1709,6 @@ span.nav-close:before {
   text-align: center;
   margin-bottom: 25px; }
 
-/* line 1323, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tile2.tile-hot:before {
   background-size: 82px 82px;
   content: "";
@@ -2004,14 +1718,12 @@ span.nav-close:before {
   top: 6px;
   width: 82px; }
 
-/* line 1332, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-table {
   text-align: center;
   margin-bottom: 20px;
   padding: 10px;
   background: transparent; }
 
-/* line 1333, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-table h4 {
   color: #fff;
   margin-bottom: -4px;
@@ -2021,17 +1733,14 @@ span.nav-close:before {
   letter-spacing: 1px;
   font-weight: 700 !important; }
 
-/* line 1342, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-header-row-1 small {
   color: #fff; }
 
-/* line 1343, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-table ul {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 1344, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .price {
   font: 40px 'Lato', sans serif;
   font-weight: 700;
@@ -2039,14 +1748,12 @@ span.nav-close:before {
   text-align: center;
   color: #555; }
 
-/* line 1351, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-header-row-1 {
   text-align: center;
   height: 75px;
   padding: 5px 0 12px;
   border-radius: 6px 6px 0px 0px; }
 
-/* line 1359, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-header-row-2 {
   text-align: center;
   height: 90px;
@@ -2055,35 +1762,29 @@ span.nav-close:before {
   border-top: none;
   background: #E9E6E1 !important; }
 
-/* line 1367, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-content-row-odd {
   font-size: 14px;
   padding: 8px 0;
   background: #f0eee9 !important; }
 
-/* line 1368, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-content-row-even {
   font-size: 14px;
   padding: 8px 0;
   background: #E9E6E1 !important; }
 
-/* line 1369, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-footer {
   text-align: center;
   height: 65px;
   padding: 20px 0 0;
   border-radius: 0px 0px 6px 6px; }
 
-/* line 1377, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-table h5 {
   font-weight: 400; }
 
-/* line 1378, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-table small {
   text-transform: uppercase;
   font-size: 9px; }
 
-/* line 1379, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .pricing-table .btn-pricing {
   color: #fff;
   padding: 0 10px;
@@ -2091,7 +1792,6 @@ span.nav-close:before {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 0px; }
 
-/* line 1388, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .btn-pricing:hover {
   background: rgba(255, 255, 255, 0.3);
   color: #fff; }
@@ -2099,94 +1799,77 @@ span.nav-close:before {
 /*************************************************************
 	ACCORDIAN
  *************************************************************/
-/* line 1393, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .panel-heading {
   box-shadow: none !important; }
 
-/* line 1394, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .panel-heading a {
   font-weight: 400; }
 
-/* line 1395, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .panel-heading .accordion-toggle:after {
   font-family: 'FontAwesome';
   content: "\f105";
   float: right; }
 
-/* line 1396, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .panel-heading .accordion-toggle.collapsed:after {
   content: "\f107"; }
 
-/* line 1397, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .panel {
   box-shadow: none !important;
   border: 0px none !important; }
 
-/* line 1398, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .panel-heading + .panel-collapse .panel-body, .panel-footer + .panel-collapse .panel-body {
   border: 0px none !important; }
 
 /*************************************************************
 	TABS
  *************************************************************/
-/* line 1403, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nav-tabs {
   float: none !important; }
 
-/* line 1404, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .nav-tabs a {
   border-radius: 0px !important;
   border: 0 none !important;
   -webkit-backface-visibility: hidden; }
 
-/* line 1411, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tab-content {
   margin-top: 20px !important; }
 
 /*************************************************************
 	TOOLTIPS
  *************************************************************/
-/* line 1416, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip {
   font-size: 13px; }
 
-/* line 1417, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.in {
   opacity: 1;
   filter: alpha(opacity=100);
   zoom: 1; }
 
-/* line 1418, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.top {
   padding-bottom: 9px;
   margin-top: -13px; }
 
-/* line 1419, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.top .tooltip-arrow {
   border-top-color: #34495e;
   border-width: 9px 9px 0;
   bottom: 0;
   margin-left: -9px; }
 
-/* line 1425, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.right .tooltip-arrow {
   border-right-color: #34495e;
   border-width: 9px 9px 9px 0;
   margin-top: -9px;
   left: -3px; }
 
-/* line 1431, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.bottom {
   padding-top: 8px; }
 
-/* line 1432, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.bottom .tooltip-arrow {
   border-bottom-color: #34495e;
   border-width: 0 9px 9px;
   margin-left: -9px;
   top: -1px; }
 
-/* line 1438, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.left .tooltip-arrow {
   border-left-color: #34495e;
   border-width: 9px 0px 9px 9px;
@@ -2194,11 +1877,9 @@ span.nav-close:before {
   top: -1px;
   right: -4px; }
 
-/* line 1444, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip.left {
   margin-left: -15px; }
 
-/* line 1446, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .tooltip-inner {
   background-color: #34495e;
   line-height: 18px;
@@ -2210,270 +1891,222 @@ span.nav-close:before {
 /*-----------------------------------------------------------------------------------*/
 /*	07: CSS3 ANIMATIONS
 /*-----------------------------------------------------------------------------------*/
-/* line 1461, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .animated {
   -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
+  -ms-animation-duration: 1s;
   animation-duration: 1s; }
 
-/* line 1461, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .animated.hinge {
   -webkit-animation-duration: 2s;
+  -ms-animation-duration: 2s;
   animation-duration: 2s; }
 
 @-webkit-keyframes fadeIn {
-  /* line 1461, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0; }
 
-  /* line 1461, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1; } }
 
 @keyframes fadeIn {
-  /* line 1466, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0; }
 
-  /* line 1466, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1; } }
 
-/* line 1468, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
 
 @-webkit-keyframes fadeInUp {
-  /* line 1475, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px); }
 
-  /* line 1476, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
 @keyframes fadeInUp {
-  /* line 1489, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px);
             transform: translateY(20px); }
 
-  /* line 1490, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 
-/* line 1492, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp; }
 
 @-webkit-keyframes fadeInDown {
-  /* line 1499, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px); }
 
-  /* line 1500, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
 @keyframes fadeInDown {
-  /* line 1511, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px); }
 
-  /* line 1512, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 
-/* line 1515, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown; }
 
 @-webkit-keyframes bounceInDown {
-  /* line 1522, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px); }
 
-  /* line 1523, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px); }
 
-  /* line 1524, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateY(-10px); }
 
-  /* line 1525, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateY(0); } }
 
 @keyframes bounceInDown {
-  /* line 1540, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
             transform: translateY(-2000px); }
 
-  /* line 1541, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
             transform: translateY(30px); }
 
-  /* line 1542, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px); }
 
-  /* line 1543, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 
-/* line 1546, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown; }
 
 @-webkit-keyframes bounceInLeft {
-  /* line 1553, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px); }
 
-  /* line 1554, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px); }
 
-  /* line 1555, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(-10px); }
 
-  /* line 1556, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes bounceInLeft {
-  /* line 1572, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
             transform: translateX(-2000px); }
 
-  /* line 1573, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
             transform: translateX(30px); }
 
-  /* line 1574, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(-10px);
             transform: translateX(-10px); }
 
-  /* line 1575, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
-/* line 1578, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .bounceInLeft {
   -webkit-animation-name: bounceInLeft;
   animation-name: bounceInLeft; }
 
 @-webkit-keyframes bounceInRight {
-  /* line 1585, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px); }
 
-  /* line 1586, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px); }
 
-  /* line 1587, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(10px); }
 
-  /* line 1588, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes bounceInRight {
-  /* line 1604, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
             transform: translateX(2000px); }
 
-  /* line 1605, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
             transform: translateX(-30px); }
 
-  /* line 1606, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(10px);
             transform: translateX(10px); }
 
-  /* line 1607, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
-/* line 1610, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight; }
 
 @-webkit-keyframes shake {
-  /* line 1617, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0%, 100% {
     -webkit-transform: translateX(0); }
 
-  /* line 1617, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px); }
 
-  /* line 1618, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px); } }
 
 @keyframes shake {
-  /* line 1631, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   0%, 100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-  /* line 1632, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
             transform: translateX(-10px); }
 
-  /* line 1633, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
             transform: translateX(10px); } }
 
-/* line 1636, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake; }
@@ -2482,10 +2115,8 @@ span.nav-close:before {
 /*	08: MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
 @media (max-width: 1199px) {
-  /* line 1647, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav {
     margin: 4px 0 0 0; }
-  /* line 1650, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li > a {
     font-weight: 400;
     letter-spacing: 2px;
@@ -2493,61 +2124,46 @@ span.nav-close:before {
     padding: 24px 18px 22px;
     text-align: center !important;
     text-transform: uppercase; }
-  /* line 1658, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .header {
     min-height: 0px; }
-  /* line 1659, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .logo {
     max-width: 200px;
     float: left;
-    margin: 0px 0px 0px 0px !important; } }
+    margin: 0px 0px 0px -0px !important; } }
 
 @media (max-width: 991px) {
-  /* line 1662, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .FlickrImagesBlog li {
     width: 10% !important; }
-  /* line 1663, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 80%; }
-  /* line 1664, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .navbar {
     min-height: 0px; }
-  /* line 1667, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li > a {
     font-size: 12px;
-    margin: 0px 0 0px 0 !important;
+    margin: 0px 0 -0px 0 !important;
     padding: 12px 10px 10px !important; }
-  /* line 1672, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav {
     margin: 0px -20px 0px 0 !important; }
-  /* line 1673, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .header {
     float: none !important;
     text-align: center;
     margin: 0px auto;
     padding-bottom: 0px !important; }
-  /* line 1674, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .container {
     padding: 0 15px !important; }
-  /* line 1675, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .btn-navbar {
     display: block; }
-  /* line 1676, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .nivo {
     margin-top: 0px !important; }
-  /* line 1677, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #banner {
     padding-bottom: 25px !important; }
-  /* line 1678, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .logo {
     float: left;
     max-width: 118px;
     margin: 0px 0px 0 0px !important; }
-  /* line 1679, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .navbar .nav.pull-right {
     float: right;
     margin-right: 0px !important; }
-  /* line 1680, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .btn-blog1 {
     width: 70px;
     padding: 5px;
@@ -2555,38 +2171,31 @@ span.nav-close:before {
 
 /* mobile menu */
 @media (max-width: 767px) {
-  /* line 1684, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
+  /* prettyPhoto styling for small screens */
   .logo {
     float: left;
     max-width: 200px;
     margin: 0px 0px 0px 10px !important; }
-  /* line 1685, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .navbar .nav.pull-right {
     float: none;
     width: 100%;
     margin: 0; }
-  /* line 1686, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li {
     border-top: 1px solid #2C2C2C;
     width: 100% !important; }
-  /* line 1687, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li a {
     text-align: left !important; }
-  /* line 1688, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li:first-child {
     border-top: 0px solid #2C2C2C;
     width: 100% !important;
     margin-top: 0px; }
-  /* line 1689, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > .active > a, #main_menu .nav > .active > a:hover {
     background: transparent !important; }
-  /* line 1690, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   ul.dropdown-menu {
     position: static;
     clear: both;
     margin: 0px 0px 20px 0px !important;
     float: none; }
-  /* line 1691, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu {
     width: 100% !important;
     margin: 0px !important;
@@ -2594,70 +2203,53 @@ span.nav-close:before {
     left: 0px !important;
     top: 0px !important;
     position: relative !important; }
-  /* line 1701, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu > li {
     background-color: rgba(0, 0, 0, 0.2); }
-  /* line 1702, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu > li > a {
     color: #bbb;
     display: block;
     padding: 15px 25px !important;
     margin: 0px 0px 2px 0px !important; }
-  /* line 1703, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu li:hover {
     background-color: rgba(0, 0, 0, 0.3) !important; }
-  /* line 1704, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu li:last-child {
     margin-bottom: -2px; }
-  /* line 1705, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     text-decoration: none;
     color: #fff;
     background: transparent !important;
     -webkit-filter: none;
             filter: none; }
-  /* line 1707, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .navbar-toggle {
     right: 0px; }
-  /* line 1708, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu .sub-menu {
     width: 100% !important;
     left: 0px !important;
     padding-left: 30px;
     visibility: visible !important;
     padding-top: 1px; }
-  /* line 1709, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .dropdown-menu .sub-menu li:last-child {
     margin-bottom: -15px; }
-  /* prettyPhoto styling for small screens */
-  /* line 1712, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .pp_pic_holder.pp_default {
     width: 100% !important;
     left: 0 !important;
     overflow: hidden; }
-  /* line 1713, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   div.pp_default .pp_content_container .pp_left {
     padding-left: 0 !important; }
-  /* line 1714, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   div.pp_default .pp_content_container .pp_right {
     padding-right: 0 !important; }
-  /* line 1715, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .pp_content {
     width: 100% !important;
     height: auto !important; }
-  /* line 1716, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .pp_fade {
     width: 100% !important;
     height: 100% !important; }
-  /* line 1717, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom {
     display: none !important; }
-  /* line 1718, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #pp_full_res img {
     width: 100% !important;
     height: auto !important;
     border-radius: 0px; }
-  /* line 1719, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .pp_details {
     width: 100% !important;
     padding-left: 3%;
@@ -2666,22 +2258,17 @@ span.nav-close:before {
     margin-top: 0px !important;
     background-color: #fff;
     height: 60px !important; }
-  /* line 1720, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .pp_loaderIcon {
     display: none !important; }
-  /* line 1721, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   a.pp_close {
     right: 10px !important;
     top: 10px !important; }
-  /* line 1722, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   div.pp_default .pp_content_container .pp_right {
     background: #fff;
     padding-left: 0px !important; }
-  /* line 1723, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .theme-default .nivo-html-caption {
     display: none; } }
 
-/* line 1725, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 .navbar-nav ul {
   position: absolute;
   top: 80px;
@@ -2689,7 +2276,6 @@ span.nav-close:before {
   z-index: 999; }
 
 @media (max-width: 1199px) {
-  /* line 1727, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .navbar-nav ul {
     position: absolute;
     top: 60px;
@@ -2697,7 +2283,6 @@ span.nav-close:before {
     z-index: 999; } }
 
 @media (max-width: 978px) {
-  /* line 1730, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .navbar-nav ul {
     position: absolute;
     top: 40px;
@@ -2705,232 +2290,182 @@ span.nav-close:before {
     z-index: 999; } }
 
 @media (min-width: 979px) and (max-width: 1023px) {
-  /* line 1733, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 70%; } }
 
 @media only screen and (max-width: 479px) {
-  /* line 1736, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .nivo_height {
     padding-top: 0px !important; }
-  /* line 1737, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #banner {
     padding-bottom: 25px !important; } }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 319px) {
-  /* line 1741, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   h1.title {
     line-height: 40px !important; } }
 
 /* slider revolution */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1745, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title {
     font-size: 16px;
     line-height: 22px; }
-  /* line 1746, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     font-size: 24px;
     line-height: 28px; }
-  /* line 1747, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title.bold {
     font-size: 30px !important;
     padding: 12px 10px !important;
     letter-spacing: 4px; }
-  /* line 1748, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title2.bold {
     font-size: 30px !important; }
-  /* line 1749, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     line-height: 30px !important; }
-  /* line 1750, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .mobile {
     margin-top: -20px; } }
 
 /* slider revolution */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1754, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title {
     font-size: 10px;
     line-height: 14px; }
-  /* line 1755, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title.bold {
     font-size: 30px !important;
     line-height: 25px;
     margin: 0 auto; }
-  /* line 1756, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     font-size: 30px;
     line-height: 25px; }
-  /* line 1757, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title2.bold {
     font-size: 30px !important;
     margin-top: -10px; }
-  /* line 1758, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title.big.bold {
     font-size: 30px !important; }
-  /* line 1759, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 80% !important;
     line-height: 35px !important; }
-  /* line 1760, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .follow_us a {
     font-size: 45px !important;
     margin: 20px 15px !important; }
-  /* line 1761, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .welcome_index {
     font: 25px/35px 'Lato', sans-serif !important;
     padding: 25px 0 10px !important; } }
 
 /* slider revolution */
 @media screen and (max-width: 31.5em) {
-  /* line 1765, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
+  /* gallery */
+  /* filters */
   .rev-title.bold {
     font-size: 20px !important;
     letter-spacing: 4px; }
-  /* line 1766, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title2.bold {
     font-size: 25px !important;
     margin-top: 0px; }
-  /* line 1767, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title-sub {
     margin: 10px 0 0 !important; }
-  /* line 1768, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     font-size: 20px;
     line-height: 25px !important; }
-  /* line 1769, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .btn-mobile, .btn-mobile2 {
     font-size: 11px !important;
     padding: 8px 9px;
     margin-top: 10px;
     border: 1px solid #fff; }
-  /* line 1770, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .btn-mobile2 {
     margin-top: -15px; }
-  /* line 1771, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .fullscreenvideo {
     margin-top: -20px !important; }
-  /* line 1772, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .welcome_index {
     font: 25px/35px 'Lato', sans-serif !important;
     padding: 25px 0 10px !important; }
-  /* line 1773, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 90% !important;
     line-height: 35px !important; }
-  /* line 1774, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .follow_us a {
     font-size: 35px !important;
     margin: 20px 10px !important; }
-  /* gallery */
-  /* line 1777, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .holder a {
     font-size: 12px;
     padding: 4px 10px;
     margin: 0 5px 5px 0;
     letter-spacing: 0px !important; }
-  /* line 1778, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .holder {
     margin: 40px 0 40px;
     text-align: left; }
-  /* filters */
-  /* line 1780, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #filters li a, #filters2 li a {
     font-size: 12px;
     padding: 8px 14px;
     margin: 0 5px 0px 0 !important;
     letter-spacing: 0px !important; }
-  /* line 1781, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #filters li, #filters2 li {
     margin-bottom: 0px !important; }
-  /* line 1782, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #filters2 {
     text-align: left !important;
     margin: 40px 5px 40px -40px !important; }
-  /* line 1783, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #options {
     margin: 0px 0 -10px; } }
 
 /* flickr */
 @media (min-width: 480px) and (max-width: 991px) {
-  /* line 1788, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .FlickrImagesBlog li {
     width: 20%; } }
 
 @media (min-width: 1024px) {
-  /* line 1791, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .FlickrImagesBlog li {
     width: 30% !important; } }
 
 /* dribbble */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1795, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .shotList img {
     width: 32.6% !important; } }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1798, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .shotList img {
     width: 48.88% !important; } }
 
 @media only screen and (max-width: 479px) {
-  /* line 1801, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .shotList img {
     width: 100% !important; } }
 
 /* masonry gallery */
 @media screen and (max-width: 60em) {
-  /* line 1806, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .grid li {
     width: 33.3%; }
-  /* line 1807, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .slideshow li {
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     margin: 0; }
-  /* line 1808, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .slideshow li figure img {
     width: auto;
     margin: 0 auto;
     max-width: 100%; }
-  /* line 1809, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .slideshow nav span, .slideshow nav span.nav-close {
     font-size: 1.8em;
     padding: 0.3em; }
-  /* line 1810, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   span.nav-close:before {
     color: #555; }
-  /* line 1811, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .info-keys {
     display: none; } }
 
 @media screen and (max-width: 35em) {
-  /* line 1814, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .grid li {
     width: 50%; } }
 
 @media screen and (max-width: 24em) {
-  /* line 1817, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .grid li {
     width: 100%; }
-  /* line 1818, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   #footer2 {
     padding: 28px 0 0 !important; } }
 
 @media (min-width: 320px) and (max-width: 479px) {
-  /* line 1822, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .slideshow figure {
     background: #fff;
     border: 20px solid #fff;
     overflow-y: scroll !important; }
-  /* line 1823, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
   .slideshow nav span.nav-prev, .slideshow nav span.nav-next {
     display: none; } }
 
-/* line 1826, C:/Users/Brian/Documents/GitHub/Website-Theme/src/scss/theme.scss */
 iframe html {
   overflow: hidden; }
+
