@@ -53,11 +53,14 @@
                     <ul class="nav navbar-nav pull-right">
                     	<li><a href="/">Home</a></li>
                         <li class="dropdown"><a href="/about">About</a>
+                            <!--toggle-->
+                            <button type="button" class="navbar-submenu-toggle" data-toggle="collapse" data-target="#about_menu">
+                                 <i class="fa fa-bars"></i>
+                            </button>
                             <ul class="dropdown-menu">
                                 <li><a href="/about/our-team/">Our Team</a></li>
-                                <li><a href="/about/apply/">Apply</a></li>
-                               <li><a href="/about/membership/">Membership</a></li>
-<!-- 								<li><a href="/sponsorship">Sponsorship</a></li>--> -->
+								<li><a href="/about/membership/">Membership</a></li>
+								<li><a href="/about/apply/">Apply</a></li>
                             </ul>
                         </li>
 <!-- Taken out until further notice <li><a href="/projects/">Projects</a></li> 
@@ -66,11 +69,13 @@
                                 <li><a href="/resources/getting-started/">Getting Started</a></li>
                                 <li><a href="/resources/building-things">Building Things</a></li>
                                 <li><a href="/resources/pragmatic-programming">Pragmatic Programming</a></li>
-                                <li><a href="/contact/index.html#subject=Resource%20Suggestion%20for%20ACM%20Website">Add A Resource</a></li>
+                                <li><a href="/contact/index.html#subject=Resource%20Suggestion%20for%20ACM%20Website">
+								<li><a href="/sponsorship">Sponsorship</a></li>
+								<li><a href="/resources/add-a-resource">Add A Resource</a></li>
                             </ul>
                         </li> -->
                         <li><a href="/events">Events</a></li>
-                        <li><a href="/blog">Blog</a></li>
+                        <!--<li><a href="/blog">Blog</a></li>-->
 						<!--<li><a href="/sponsorship">Sponsorship</a></li> -->
                         <li><a href="/contact">Contact</a></li>
                     </ul>
@@ -90,7 +95,7 @@
         <div class="inner_content">
             <h1 class="title">Contact Us</h1>
             <h1 class="intro">
-						Do you have something you'd like to see? Tell us about it!	</h1>
+				Is there something you'd like to see? Tell us about it!</h1>
         </div>
     </div>
 </div>
@@ -101,47 +106,48 @@
     <div class="inner_content">
         <div class="row pad10">
             <div class="col-sm-6 col-md-4">
-                <h3>
-						Do you have a question, comment, idea, or something else you'd like to talk to us about? Please feel free to send us an email or fill in our handy contact form. We'll get back to you as soon as we can. Just be careful about<a href="http://catb.org/~esr/faqs/smart-questions.html" target="_blank"> how you ask questions.</a>
-					</h3>
+				<h2><span>Questions / Comments?</span></h2>
+                <h3>Have something you'd like to talk to us about?<br />
+				Feel free to send us an email or fill out the provided contact form.
+				We will get back to you as soon as we can.</h3>
 
-                <h5>
-				  <span>Address</span><br>
-				  UC Merced ACM<br>
-				  5200 N. Lake Road,<br>
-				  Merced, CA 95343<br>
-				</h5>
+                <h3><span>Address</span></h3>
+				<ul>
+					UC Merced ACM<br />
+					5200 N. Lake Road,<br />
+					Merced, CA 95343<br />
+				</ul>
 
-                <h5>
-				  <span>Email</span><br>
-				  Official:<a href="mailto:acm@ucmerced.edu"> acm@ucmerced.edu</a><br><br>
-				  
-				  Need to talk to a specific person? Find<br>
-				  them over at <a href="../about/our-team/"> our team page!</a>
-				</h5>
+                <h3><span>Email</span></h3>
+				<ul>
+					<a href="mailto:acm@ucmerced.edu"> acm@ucmerced.edu</a><br />
+				</ul>
 
-                <h5>
-				  <span>Meeting Times</span><br>
-				  Fridays, 10:00am - 3:00 pm<br>
-				  Kolligian Library, Room 397<br>
-				</h5>
+                <h3><span>Meeting Times</span></h3>
+				<ul>
+					Fridays, 12:00pm - 4:30 pm<br />
+					Kolligian Library, Room 397<br />
+				</ul>
                 <!--Twitter Button-->
             </div>
 
 
             <div class="col-sm-6 col-md-8">
+				<h1>Contact Us</h1>
+				<hr />
+				
                 <div class="contact_form">
                     <div id="note"></div>
                     <div id="fields">
                         <form id="ajax-contact-form">
                             <p class="form_info">name <span class="required">*</span>
                             </p>
-                            <input class="col-xs-12 col-sm-12 col-md-8" type="text" name="name" id="name" value="" />
+                            <input class="col-xs-12 col-sm-12 col-md-12" type="text" name="name" id="name" value="" />
                             <p class="form_info">email <span class="required">*</span>
                             </p>
-                            <input class="col-xs-12 col-sm-12 col-md-8" type="text" name="email" id="email" value="" />
+                            <input class="col-xs-12 col-sm-12 col-md-12" type="text" name="email" id="email" value="" />
                             <p class="form_info">subject</p>
-                            <input class="col-xs-12 col-sm-12 col-md-8" type="text" name="subject" id="subject" value="" />
+                            <input class="col-xs-12 col-sm-12 col-md-12" type="text" name="subject" id="subject" value="" />
                             <br>
                             <p class="form_info">message</p>
                             <textarea name="message" id="message" class="col-xs-12 col-sm-12 col-md-12"></textarea>
