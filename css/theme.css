@@ -22,12 +22,12 @@ Purchase:  http://themeforest.net/user/josweb
 /*-----------------------------------------------------------------------------------*/
 /*	01: GENERAL STYLING
 /*-----------------------------------------------------------------------------------*/
-/* line 27, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 27, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 html {
   position: relative;
   min-height: 100%; }
 
-/* line 29, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 29, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 body {
   margin: 0;
   padding: 0;
@@ -40,7 +40,7 @@ body {
   margin-bottom: 100px; }
 
 /**** PAGE CONTAINERS ****/
-/* line 42, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 42, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .header {
   padding: 0 0;
   margin: 0 auto;
@@ -48,31 +48,31 @@ body {
   width: 100%;
   z-index: 1000; }
 
-/* line 49, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 49, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .inner_content {
   padding: 20px 0 0; }
 
-/* line 50, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 50, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .wrapper {
   margin: 0px auto;
   padding: 0 0 60px; }
 
-/* line 51, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 51, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #banner {
   width: 100%; }
 
-/* line 52, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 52, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .intro_wrapper {
   margin: 0 auto;
   padding: 0 0 40px; }
 
-/* line 53, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 53, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .intro_wrapper2 {
   margin: -20px auto 0;
   padding: 0 0 40px; }
 
 /**** GENERAL ****/
-/* line 56, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 56, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 img {
   height: auto;
   max-width: 100%;
@@ -81,166 +81,166 @@ img {
   opacity: 1.0;
   width: auto\9; }
 
-/* line 57, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 57, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a, input, select, textarea {
   outline: none;
   text-decoration: none; }
 
-/* line 58, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 58, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a, li {
   -webkit-tap-highlight-color: transparent; }
 
-/* line 59, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 59, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a, a:visited {
   text-decoration: none !important; }
 
-/* line 60, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 60, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 :focus {
   outline: 0 !important; }
 
-/* line 61, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 61, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a:hover, a:active, a:focus {
   outline: 0 !important; }
 
-/* line 62, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 62, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 p {
   margin-bottom: 15px; }
 
-/* line 63, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 63, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 span {
   font-weight: 700; }
 
-/* line 64, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 64, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 small {
   letter-spacing: 0.2em;
   font-size: 11px; }
 
-/* line 65, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 65, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .clear {
   height: 0;
   clear: both;
   font-size: 0; }
 
-/* line 66, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 66, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pull-right {
   margin-left: 12px; }
 
-/* line 67, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 67, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pull-left {
   margin-right: 12px; }
 
-/* line 68, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 68, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .center {
   text-align: center;
   margin: 0 auto; }
 
-/* line 69, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 69, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .label, .badge {
   text-shadow: none; }
 
-/* line 70, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 70, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 hr {
   border-top: 1px solid #ccc;
   border-bottom: 0; }
 
-/* line 71, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 71, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .popover {
   text-align: left; }
 
-/* line 72, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 72, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .fa {
   text-rendering: auto; }
 
-/* line 73, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 73, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .zocial {
   border-radius: 4px;
   padding: 2px;
   margin-right: 5px; }
 
-/* line 80, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 80, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .media img {
   margin-top: 5px; }
 
-/* line 81, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 81, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .media-body a {
   color: #888; }
 
-/* line 82, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 82, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .media-body a:hover {
   color: #777; }
 
-/* line 83, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 83, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .big {
   font-size: 100px; }
 
-/* line 84, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 84, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .myslider, .myslider1, .myslider2, .projects {
   display: none; }
 
-/* line 86, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 86, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .well {
   border: 0px none;
   margin-top: 10px;
   box-shadow: none; }
 
 /* Icons List */
-/* line 97, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 97, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .fa-li {
   margin-left: -8px;
   padding-top: 2px; }
 
 /* Padding */
-/* line 100, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 100, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad90 {
   padding-top: 90px; }
 
-/* line 101, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 101, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad45 {
   padding-top: 45px; }
 
-/* line 102, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 102, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad30 {
   padding-top: 30px; }
 
-/* line 103, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 103, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad25 {
   padding-top: 25px; }
 
-/* line 104, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 104, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad20 {
   padding-top: 20px; }
 
-/* line 105, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 105, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad15 {
   padding-top: 15px; }
 
-/* line 106, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 106, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad10 {
   padding-top: 10px; }
 
-/* line 107, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 107, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad5 {
   padding-top: 5px; }
 
 /* Margins */
-/* line 110, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 110, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .marg-bottom5 {
   margin-bottom: 5px; }
 
-/* line 111, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 111, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .marg-left5 {
   margin-left: 5px; }
 
-/* line 112, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 112, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .marg-right5 {
   margin-right: 5px; }
 
-/* line 113, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 113, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .but_marg {
   margin-left: 3px; }
 
 /* Video */
-/* line 116, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 116, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .vendor {
   position: relative;
   padding-bottom: 56.25%;
@@ -248,7 +248,7 @@ hr {
   height: 0;
   margin: 0 0; }
 
-/* line 123, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 123, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .vendor iframe {
   position: absolute;
   top: 0;
@@ -256,79 +256,79 @@ hr {
   width: 100%;
   height: 100%; }
 
-/* line 130, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 130, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 iframe {
   border: 0; }
 
-/* line 131, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 131, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 video {
   width: 100%;
   height: auto; }
 
-/* line 132, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 132, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .soundcloud {
   width: 100%;
   height: 166px; }
 
 /**** LINKS ****/
-/* line 135, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 135, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   outline: none; }
 
-/* line 143, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 143, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a:hover {
   text-decoration: none; }
 
 /**** IMAGES ****/
 /* Image Hover Colour */
-/* line 147, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 147, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .hover_img:hover, .hover_colour {
   position: relative;
   z-index: 1; }
 
 /**** BUTTONS ****/
-/* line 150, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 150, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn {
   border: 0;
   -webkit-transition: background-color .4s ease-in;
   transition: background-color .4s ease-in; }
 
-/* line 157, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 157, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn-custom {
   font-size: 14px;
   padding: 12px 15px 14px;
   margin-top: 10px; }
 
-/* line 158, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 158, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn-outline {
   background-color: transparent;
   border: 2px solid #fff;
   padding: 12px 15px 14px;
   border-radius: 0px !important; }
 
-/* line 166, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 166, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn-outline:hover {
   background-color: #3e4957; }
 
-/* line 168, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 168, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .portfolio-links i {
   border-radius: 3px; }
 
-/* line 173, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 173, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .portfolio-links a {
   margin-right: 5px !important; }
 
 /**** TYPOGRAPHY ****/
-/* line 177, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 177, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   letter-spacing: -0.25px;
   font-family: 'Lato', sans-serif; }
 
-/* line 178, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 178, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h1.title {
   font-size: 40px;
   line-height: 45px;
@@ -336,51 +336,51 @@ h1.title {
   margin: 0 0 30px;
   text-align: left; }
 
-/* line 179, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 179, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h1 {
   font-size: 24px;
   line-height: 40px !important; }
 
-/* line 180, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 180, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h2 {
   font-size: 21px;
   line-height: 30px !important; }
 
-/* line 181, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 181, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h3 {
   font-size: 18px;
   line-height: 25px !important; }
 
-/* line 182, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 182, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h4 {
   font-size: 16px;
   line-height: 25px !important;
   margin-bottom: 10px; }
 
-/* line 183, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 183, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h5 {
   font-size: 15px;
   line-height: 22px !important;
   margin-bottom: 10px; }
 
-/* line 184, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 184, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h6 {
   font-size: 14px;
   line-height: 22px !important;
   margin-bottom: 10px; }
 
-/* line 185, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 185, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h1.intro {
   line-height: 40px;
   font-weight: 300; }
 
-/* line 186, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 186, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .lead {
   font-size: 18px;
   line-height: 24px; }
 
 /**** WELCOME TEXT ****/
-/* line 189, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 189, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .welcome_index {
   width: 80%;
   font: 32px/50px 'Lato', sans-serif;
@@ -391,7 +391,7 @@ h1.intro {
   text-align: center; }
 
 /**** DROP CAPS ****/
-/* line 200, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 200, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropcap, .dropcap2 {
   font-weight: 700;
   display: block;
@@ -402,18 +402,18 @@ h1.intro {
   text-transform: uppercase; }
 
 /**** DRIBBBLE ****/
-/* line 211, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 211, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .shotList {
   margin-left: -40px;
   display: none; }
 
-/* line 212, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 212, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .shotList img {
   width: 32.78%;
   padding: 0 0% 5px 0;
   margin-right: 5px; }
 
-/* line 213, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 213, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .shotList img:hover {
   opacity: 0.9;
   -webkit-transition: all 0.3s ease-in-out;
@@ -423,7 +423,7 @@ h1.intro {
 /*	02: MENU
 /*-----------------------------------------------------------------------------------*/
 /**** LOGO ****/
-/* line 227, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 227, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .logo {
   float: left;
   margin: 0px 0px 0 -15px !important;
@@ -432,32 +432,32 @@ h1.intro {
   -webkit-transition: all 0.3s ease-in;
           transition: all 0.3s ease-in; }
 
-/* line 236, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 236, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .logo:hover {
   opacity: .80; }
 
-/* line 238, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 238, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #main_menu {
   z-index: 999; }
 
-/* line 239, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 239, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .navbar {
   padding: 0;
   margin: 0;
   background: transparent;
   border: 0px none; }
 
-/* line 240, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 240, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #main_menu .nav {
   float: right;
   margin: 18px 0 0 0; }
 
-/* line 241, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 241, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .navbar .nav.pull-right {
   float: right;
   margin-right: -30px !important; }
 
-/* line 243, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 243, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #main_menu .nav > li > a {
   font-weight: 400;
   letter-spacing: 2px;
@@ -466,16 +466,16 @@ h1.intro {
   text-align: center !important;
   text-transform: uppercase; }
 
-/* line 252, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 252, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #main_menu .nav > .active > a, #main_menu .nav > .active > a:hover {
   webkit-border-radius: 4px 4px 0px 0px;
   border-radius: 4px 4px 0px 0px; }
 
-/* line 257, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 257, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #main_menu .nav > .active > a:focus {
   background: transparent; }
 
-/* line 259, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 259, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropdown-menu {
   display: none;
   left: -40px !important;
@@ -488,7 +488,7 @@ h1.intro {
   box-shadow: none !important;
   border: 0px none !important; }
 
-/* line 273, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 273, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropdown-menu li a {
   border: 0;
   display: block;
@@ -497,30 +497,30 @@ h1.intro {
   text-align: left;
   text-transform: none; }
 
-/* line 281, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 281, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropdown-menu > li:first-child {
   margin-top: 4px; }
 
-/* line 282, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 282, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropdown-menu > li:last-child {
   margin-bottom: 6px; }
 
-/* line 284, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 284, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropdown-menu .sub-menu {
   visibility: hidden;
   left: 175px !important; }
 
-/* line 285, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 285, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropdown-menu li:hover .sub-menu {
   visibility: visible; }
 
-/* line 286, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 286, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .dropdown-menu .sub-menu a {
   -webkit-transition-property: none !important;
   transition-property: none !important; }
 
 /**** TOGGLE ****/
-/* line 295, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 295, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .navbar-toggle {
   position: absolute;
   top: 10px;
@@ -531,7 +531,7 @@ h1.intro {
   border-radius: 4px;
   line-height: 0px; }
 
-/* line 307, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 307, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .navbar-submenu-toggle {
   position: absolute;
   top: 10px;
@@ -544,15 +544,15 @@ h1.intro {
   line-height: 0px; }
 
 @media (min-width: 768px) {
-  /* line 321, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 321, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .navbar-submenu-toggle {
     display: none; } }
 
-/* line 325, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 325, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nav-collapse .nav > li > a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
   background-color: transparent; }
 
-/* line 327, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 327, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .navbar-collapse.in {
   overflow-y: visible; }
 
@@ -562,54 +562,54 @@ h1.intro {
 /***************************************************
 	SLIDER REVOLUTION - index
 ***************************************************/
-/* line 337, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 337, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-banner-container {
   width: 100%;
   position: relative;
   padding: 0; }
 
-/* line 338, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 338, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .banner {
   width: 100%;
   position: relative; }
 
-/* line 339, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 339, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-banner-container li {
   visibility: hidden; }
 
-/* line 340, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 340, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-text {
   color: #fff;
   margin: 40px;
   font-size: 17px;
   line-height: 26px; }
 
-/* line 341, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 341, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-title {
   margin: 0px;
   color: #fff; }
 
-/* line 342, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 342, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-left {
   margin-left: 20px; }
 
-/* line 343, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 343, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-right {
   margin-right: 20px; }
 
-/* line 344, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 344, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-title.big {
   font-size: 40px;
   line-height: 44px !important; }
 
-/* line 345, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 345, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-title-sub {
   font-size: 30px;
   color: #fff;
   letter-spacing: 3px;
   font-weight: 400; }
 
-/* line 346, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 346, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-title.bold, .rev-title2.bold {
   font-size: 60px !important;
   font-weight: 700 !important;
@@ -618,34 +618,34 @@ h1.intro {
   letter-spacing: 6px;
   padding: 8px 15px; }
 
-/* line 354, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 354, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .rev-title2.bold {
   text-transform: none;
   letter-spacing: 2px;
   padding: 0 0; }
 
-/* line 355, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 355, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-caption.bg {
   background: #323A45;
   padding: 18px 22px 22px; }
 
-/* line 356, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 356, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .big_white {
   color: #eee;
   font-size: 18px !important;
   background: #323A45;
   padding: 20px !important; }
 
-/* line 357, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 357, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .shadow {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
 
-/* line 358, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 358, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-banner-container .btn-outline, .tp-banner-container .btn-outline:hover {
   color: white; }
 
 /**** HTML5 VIDEO****/
-/* line 362, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 362, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-caption.large_bold_title {
   font: 75px/85px 'Lato', sans-serif;
   font-weight: 700;
@@ -654,7 +654,7 @@ h1.intro {
   letter-spacing: 4px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
 
-/* line 370, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 370, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-caption.medium_text_shadow {
   font: 25px/25px 'Lato', sans-serif !important;
   font-weight: 600;
@@ -662,16 +662,16 @@ h1.intro {
   text-align: center;
   text-shadow: #000 0px 5px 10px; }
 
-/* line 377, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 377, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .fullscreenvideo {
   margin-top: -15px !important; }
 
 /**** BULLETS ****/
-/* line 380, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 380, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-bullets {
   height: 21px; }
 
-/* line 381, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 381, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-bullets .bullet {
   cursor: pointer;
   position: relative !important;
@@ -692,11 +692,11 @@ h1.intro {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box; }
 
-/* line 406, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 406, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-bullets .bullet.last {
   margin-right: 0px; }
 
-/* line 407, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 407, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tp-bullets .bullet:hover, .tp-bullets .bullet.selected {
   box-shadow: none;
   background: #aaa !important;
@@ -707,33 +707,33 @@ h1.intro {
 /***************************************************
 	NIVO SLIDER
 ***************************************************/
-/* line 421, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 421, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo {
   margin-top: 0px;
   padding-top: 0px; }
 
-/* line 422, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 422, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivoSlider {
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden; }
 
-/* line 423, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 423, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivoSlider img {
   position: absolute;
   top: 0px;
   left: 0px;
   max-width: none; }
 
-/* line 424, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 424, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-main-image {
   display: block !important;
   position: relative !important;
   width: 100% !important; }
 
 /* If an image is wrapped in a link */
-/* line 426, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 426, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivoSlider a.nivo-imageLink {
   position: absolute;
   top: 0px;
@@ -747,7 +747,7 @@ h1.intro {
   display: none; }
 
 /* The slices and boxes in the Slider */
-/* line 439, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 439, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-slice {
   display: block;
   position: absolute;
@@ -755,57 +755,57 @@ h1.intro {
   height: 100%;
   top: 0; }
 
-/* line 446, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 446, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-box {
   display: block;
   position: absolute;
   z-index: 5;
   overflow: hidden; }
 
-/* line 447, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 447, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-box img {
   display: block; }
 
-/* line 448, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 448, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-html-caption {
   display: none; }
 
-/* line 449, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 449, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-controlNav {
   display: none; }
 
-/* line 450, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 450, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-box {
   width: 10px; }
 
-/* line 451, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 451, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-wrapper {
   position: relative;
   margin: 0 auto 20px auto; }
 
-/* line 452, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 452, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivoSlider {
   position: relative;
   background: transparent url(../img/ajax-loader.gif) no-repeat 50% 50%;
   margin: 0 auto; }
 
-/* line 457, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 457, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivoSlider img {
   position: a bsolute;
   top: 0px;
   left: 0;
   display: none; }
 
-/* line 458, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 458, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivoSlider a {
   border: 0;
   display: block; }
 
-/* line 459, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 459, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-controlNav a {
   display: none; }
 
-/* line 460, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 460, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-directionNav a {
   display: block;
   position: absolute !important;
@@ -821,20 +821,20 @@ h1.intro {
   background: url("../img/slider_nav.png") no-repeat 0 0;
   opacity: 0.6; }
 
-/* line 473, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 473, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a.nivo-nextNav:hover, .nivo-prevNav:hover {
   opacity: 1; }
 
-/* line 474, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 474, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a.nivo-nextNav {
   background-position: -33px 0px;
   right: 0px; }
 
-/* line 475, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 475, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 a.nivo-prevNav {
   right: 33px; }
 
-/* line 476, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 476, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nivo-caption {
   display: block;
   position: absolute;
@@ -855,7 +855,7 @@ a.nivo-prevNav {
 	INDEX INTRO BOXES
  ***************************************************/
 /* Index Boxes */
-/* line 497, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 497, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tile {
   background-color: #e3e1e1;
   border-radius: 6px;
@@ -864,7 +864,7 @@ a.nivo-prevNav {
   text-align: center;
   margin-bottom: 25px; }
 
-/* line 507, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 507, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tile.tile-hot:before {
   background-size: 82px 82px;
   content: "";
@@ -875,46 +875,46 @@ a.nivo-prevNav {
   width: 82px; }
 
 @media (min-width: 992px) {
-  /* line 517, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 517, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .tile.tile-frontpage {
     min-height: 330px; } }
 
-/* line 522, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 522, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tile p {
   margin: 10px 0 22px 0;
   font: 13px/22px 'Lato', sans-serif; }
 
-/* line 523, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 523, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tile-image {
   height: 100px;
   margin: 25px 0 15px;
   vertical-align: bottom; }
 
-/* line 524, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 524, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tile-title {
   font-size: 18px;
   margin: 0; }
 
 /* Index Box Icons */
-/* line 528, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 528, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .intro-icon {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 535, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 535, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .intro-icon-disc.cont-large {
   width: 60px;
   height: 60px;
   margin: 0 auto; }
 
-/* line 536, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 536, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .intro-icon-large {
   font-size: 32px;
   margin: 14px 0 0 2px;
   text-align: center; }
 
-/* line 538, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 538, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .intro-icon-disc {
   webkit-transition: border .5s;
   -webkit-transition: border .5s;
@@ -925,7 +925,7 @@ a.nivo-prevNav {
   -webkit-transition: box-shadow .6s ease-in-out;
   transition: box-shadow .6s ease-in-out; }
 
-/* line 557, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 557, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .intro-icon-disc:hover {
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
   -webkit-transition: box-shadow .4s ease-in-out;
@@ -937,7 +937,7 @@ a.nivo-prevNav {
 /***************************************************
 	0I: TEAM
  ***************************************************/
-/* line 573, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 573, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .th {
   border: 2px solid transparent;
   -moz-transition: all 0.3s ease;
@@ -948,7 +948,7 @@ a.nivo-prevNav {
   padding: 10px;
   border-radius: 4px; }
 
-/* line 585, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 585, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .th:hover {
   border: 2px solid transparent;
   -ms-transform: scale(1.03);
@@ -957,12 +957,12 @@ a.nivo-prevNav {
   -o-transform: scale(1.03);
   -moz-transform: scale(1.03); }
 
-/* line 593, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 593, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .team_ic a {
   margin: 0 2px;
   font-size: 12px; }
 
-/* line 594, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 594, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .team_ic:hover {
   -ms-transform: translate(0, -4px);
       transform: translate(0, -4px);
@@ -972,20 +972,20 @@ a.nivo-prevNav {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
-/* line 605, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 605, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .team_sections {
   display: block;
   padding: 15px 5px;
   text-align: center; }
 
-/* line 606, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 606, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .team_bio {
   width: 80%;
   text-align: center;
   margin: 0 auto;
   height: 150px; }
 
-/* line 607, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 607, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 hr.team-line {
   border: 0;
   background: url(../assets/img/lines.png) repeat;
@@ -997,7 +997,7 @@ hr.team-line {
 	II: ABOUT PAGE
  *************************************************************/
 /* Progress Bars */
-/* line 619, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 619, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .progress {
   background: #E9E6E1;
   color: #fff;
@@ -1007,7 +1007,7 @@ hr.team-line {
   box-shadow: none;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
-/* line 632, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 632, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .progress .bar {
   text-align: right;
   padding: 0 20px 0 0;
@@ -1016,12 +1016,12 @@ hr.team-line {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
 /* About Info Bottom Strip */
-/* line 643, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 643, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .strip {
   padding: 45px 0 40px;
   text-align: center; }
 
-/* line 644, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 644, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .strip h1 {
   letter-spacing: 0.25em;
   color: #555;
@@ -1029,7 +1029,7 @@ hr.team-line {
   font-size: 20px;
   margin-bottom: 0.5em; }
 
-/* line 651, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 651, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .about_strip {
   width: 80%;
   text-align: center;
@@ -1037,7 +1037,7 @@ hr.team-line {
   line-height: 30px !important; }
 
 /* big button */
-/* line 654, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 654, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .big_button {
   display: block;
   float: none;
@@ -1054,18 +1054,18 @@ hr.team-line {
 /***************************************************
 	III: SERVICES - CLIENTS
  ***************************************************/
-/* line 674, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 674, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .client img {
   background-color: #e9e6e1;
   margin-bottom: 25px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-/* line 681, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 681, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .client img:hover {
   background-color: #d3cdc4; }
 
-/* line 682, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 682, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .client_intro {
   width: 70%;
   text-align: center;
@@ -1075,7 +1075,7 @@ hr.team-line {
 /***************************************************
 	IV: TESTIMONIALS
  ***************************************************/
-/* line 687, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 687, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .testimonial1, .testimonial2, .testimonial3 {
   position: relative;
   padding: 20px 20px 15px;
@@ -1083,7 +1083,7 @@ hr.team-line {
   font-size: 13px;
   border-radius: 4px; }
 
-/* line 696, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 696, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .testimonial1:after, .testimonial2:after, .testimonial3:after {
   top: 100%;
   border: solid transparent;
@@ -1093,12 +1093,12 @@ hr.team-line {
   position: absolute;
   pointer-events: none; }
 
-/* line 704, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 704, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .testimonial1:after, .testimonial2:after, .testimonial3:after {
   border-width: 6px;
   left: 48%; }
 
-/* line 706, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 706, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .quote_sections, .quote_sections_hue, .quote_sections_dark, .quote_sections_light {
   display: block;
   padding: 15px 15px 5px;
@@ -1107,13 +1107,13 @@ hr.team-line {
   border-radius: 4px; }
 
 /* Testimonial Icons */
-/* line 717, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 717, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .testimonial-icon-disc, .testimonial-icon-disc2, .testimonial-icon-disc3 {
   border-radius: 4px;
   text-align: center;
   vertical-align: middle; }
 
-/* line 727, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 727, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .testimonial-icon-disc.cont-large, .testimonial-icon-disc2.cont-large, .testimonial-icon-disc3.cont-large, .testimonial-icon-disc4.cont-large {
   padding: 10px 0 0 0;
   text-align: center;
@@ -1122,7 +1122,7 @@ hr.team-line {
   height: 38px;
   margin: 0px auto 10px auto; }
 
-/* line 734, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 734, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .testimonial-icon-large {
   font-size: 30px;
   margin-left: 1px;
@@ -1132,7 +1132,7 @@ hr.team-line {
 	V: BLOG
  ***************************************************/
 /* Date */
-/* line 740, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 740, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn-blog1 {
   margin: 0 0 10px;
   width: 55px;
@@ -1140,42 +1140,42 @@ hr.team-line {
   padding: 8px 0; }
 
 /* Small Date */
-/* line 747, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 747, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn-blog2 {
   margin: 0 0 10px;
   font-size: 12px;
   padding: 8px 10px 10px; }
 
-/* line 752, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 752, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn-blog2 i {
   margin: 0 3px 0 5px;
   font-size: 17px; }
 
-/* line 754, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 754, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h1.post_intro {
   font-size: 25px;
   line-height: 35px;
   font-weight: 400; }
 
-/* line 755, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 755, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .blog_slide {
   margin-bottom: -20px; }
 
-/* line 756, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 756, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .blog_slide1 {
   margin-bottom: -10px; }
 
-/* line 757, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 757, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .post_link {
   font-weight: 400;
   line-height: 26px; }
 
-/* line 758, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 758, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .post_link a {
   color: #555; }
 
 /* Meta */
-/* line 761, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 761, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .post-meta ul {
   margin: -5px 0 15px 0;
   padding: 0 0;
@@ -1184,38 +1184,38 @@ h1.post_intro {
   font-size: 11px;
   clear: both; }
 
-/* line 769, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 769, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .post-meta li {
   margin: 0;
   display: inline; }
 
-/* line 770, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 770, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .post-meta a {
   color: #555; }
 
-/* line 771, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 771, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .post-meta a:hover {
   color: #747474; }
 
-/* line 772, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 772, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .muted {
   color: #888; }
 
-/* line 774, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 774, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .read_more {
   font-weight: 400;
   letter-spacing: 1.5px; }
 
-/* line 775, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 775, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .read_more a:hover {
   color: #555; }
 
-/* line 776, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 776, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .sidebar p, .sidebar .media-body p {
   font-size: 13px; }
 
 /* Search */
-/* line 779, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 779, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 input[type="text"], input[type="search"] {
   border: 2px solid #d8d3cb;
   color: #888;
@@ -1223,64 +1223,64 @@ input[type="text"], input[type="search"] {
   box-shadow: none;
   padding: 8px; }
 
-/* line 791, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 791, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .avatar {
   float: left;
   margin: 0 10px 0 0; }
 
-/* line 792, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 792, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pad_author {
   margin: 18px 20px 10px 0px; }
 
-/* line 793, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 793, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .media-body {
   margin-bottom: 5px; }
 
 /* Flickr */
-/* line 796, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 796, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .flickrs2 {
   margin: 0 0 0 -40px;
   padding-right: 0; }
 
-/* line 797, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 797, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .FlickrImagesBlog li {
   float: left;
   margin: 0 5px 12px 0;
   width: 30.3%;
   list-style-type: none; }
 
-/* line 798, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 798, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .FlickrImagesBlog img {
   border-radius: 3px;
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear; }
 
 /* Pager */
-/* line 808, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 808, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pager li > a, .pager li > span {
   display: inline-block;
   padding: 5px 10px;
   border: 0; }
 
-/* line 814, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 814, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pager li > a:hover, .pager li > a:focus, .pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span {
   text-decoration: none; }
 
 /* Pagination */
-/* line 817, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 817, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pagination {
   margin: 50px -40px 0px; }
 
-/* line 818, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 818, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pagination ul {
   border-radius: 5px;
   box-shadow: none; }
 
-/* line 826, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 826, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pagination ul > li {
   display: inline; }
 
-/* line 828, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 828, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pagination ul > li > a, .pagination ul > li > span {
   float: left;
   padding: 4px 10px;
@@ -1291,32 +1291,32 @@ input[type="text"], input[type="search"] {
   margin-right: 5px;
   border-radius: 5px; }
 
-/* line 840, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 840, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pagination ul > li:first-child > a, .pagination ul > li:first-child > span {
   border-left-width: 2px; }
 
 /***************************************************
 	VI: CONTACT
  ***************************************************/
-/* line 845, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 845, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .google-maps {
   height: 400px;
   margin: 0px 0 30px; }
 
-/* line 847, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 847, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .contact_form {
   padding: 20px; }
 
-/* line 848, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 848, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #ajax-contact-form input, .contact_form textarea {
   border: 0px none;
   box-shadow: none; }
 
-/* line 849, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 849, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .contact_form textarea {
   min-height: 200px; }
 
-/* line 851, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 851, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .form_info {
   color: #767676;
   text-transform: uppercase;
@@ -1326,7 +1326,7 @@ input[type="text"], input[type="search"] {
   margin-bottom: 8px;
   clear: both; }
 
-/* line 860, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 860, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #ajax-contact-form input, #ajax-contact-form textarea {
   border: 2px solid #d8d3cb;
   color: #888;
@@ -1335,11 +1335,11 @@ input[type="text"], input[type="search"] {
   padding: 6px;
   margin-bottom: 8px; }
 
-/* line 872, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 872, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .required {
   font-size: 17px; }
 
-/* line 874, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 874, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #ajax-contact-form input.btn-form {
   border: 0 none;
   color: #fff;
@@ -1356,7 +1356,7 @@ input[type="text"], input[type="search"] {
   border-radius: 5px;
   text-align: center; }
 
-/* line 892, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 892, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .notification_error {
   color: #fff;
   background-color: #333;
@@ -1365,7 +1365,7 @@ input[type="text"], input[type="search"] {
   padding: 10px;
   text-align: left; }
 
-/* line 900, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 900, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .notification_ok {
   color: #fff;
   background-color: #333;
@@ -1381,12 +1381,12 @@ input[type="text"], input[type="search"] {
 	VII: FOOTER
  ***************************************************/
 /*Social Icons */
-/* line 916, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 916, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .follow_us {
   text-align: center;
   margin: 0 auto; }
 
-/* line 917, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 917, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .follow_us a {
   font-size: 50px;
   color: #fff;
@@ -1397,12 +1397,12 @@ input[type="text"], input[type="search"] {
   background: transparent;
   opacity: 0.2; }
 
-/* line 929, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 929, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .follow_us a:hover {
   opacity: 1.0;
   color: #fff; }
 
-/* line 931, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 931, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #footer h1 {
   letter-spacing: 0.25em;
   font-size: 22px;
@@ -1410,7 +1410,7 @@ input[type="text"], input[type="search"] {
   text-transform: uppercase;
   margin-bottom: 0.5em !important; }
 
-/* line 938, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 938, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 h3.follow {
   color: #eee;
   width: 50%;
@@ -1418,12 +1418,12 @@ h3.follow {
   font-size: 18px;
   line-height: 40px !important; }
 
-/* line 946, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 946, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #footer {
   padding: 40px 0 30px;
   text-align: center; }
 
-/* line 947, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 947, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #footer2 {
   text-align: center;
   padding: 39px 0 36px;
@@ -1437,7 +1437,7 @@ h3.follow {
   height: 100px; }
 
 /* Back To Top */
-/* line 961, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 961, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .go-top {
   position: fixed;
   bottom: 0.9em;
@@ -1451,7 +1451,7 @@ h3.follow {
   border-radius: 3px;
   z-index: 999; }
 
-/* line 976, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 976, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .go-top:hover {
   background-color: rgba(0, 0, 0, 0.6); }
 
@@ -1459,7 +1459,7 @@ h3.follow {
 /*	05: PORTFOLIO, GALLERY, CAROUSEL & THUMB CAROUSELS
 /*-----------------------------------------------------------------------------------*/
 /**** PORTFOLIO ****/
-/* line 983, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 983, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .item_description {
   font-size: 13px;
   color: #767676;
@@ -1468,89 +1468,89 @@ h3.follow {
   text-align: center;
   border-bottom: 2px solid #d3cdc4; }
 
-/* line 991, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 991, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .item_description a {
   text-transform: uppercase;
   font-weight: 700; }
 
-/* line 992, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 992, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .item_description:hover {
   border-bottom: 2px solid #bbb; }
 
-/* line 993, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 993, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .item_description a:hover {
   color: #888; }
 
 /* Isotope Filtering */
-/* line 996, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 996, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .isotope-item {
   z-index: 2; }
 
-/* line 997, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 997, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1; }
 
 /* Isotope CSS3 transition */
-/* line 999, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 999, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .isotope, .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s; }
 
-/* line 1004, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1004, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .isotope {
   -webkit-transition-property: height, width;
   transition-property: height, width; }
 
-/* line 1009, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1009, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
   transition-property: transform, opacity; }
 
 /* disabling Isotope CSS3 transitions */
-/* line 1015, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1015, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
 /* End: Recommended Isotope styles */
-/* line 1021, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1021, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .isotope.infinite-scrolling {
   -webkit-transition: none;
   transition: none; }
 
-/* line 1026, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1026, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .element {
   overflow: hidden;
   position: relative;
   margin-bottom: 20px; }
 
-/* line 1027, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1027, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .element img {
   max-width: 100%; }
 
-/* line 1028, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1028, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #options {
   padding: 0 0 0px; }
 
-/* line 1029, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1029, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #filters2 {
   text-align: center;
   margin: 55px 0 45px; }
 
-/* line 1030, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1030, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #filters {
   text-align: left;
   margin: 45px 0px 40px -40px; }
 
-/* line 1031, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1031, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #filters li, #filters2 li {
   margin: 0;
   background: none;
   overflow: hidden;
   display: inline-block; }
 
-/* line 1032, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1032, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #filters li a, #filters2 li a, .holder a {
   font-size: 12px;
   font-weight: 700;
@@ -1563,17 +1563,17 @@ h3.follow {
   padding: 10px 14px; }
 
 /**** GALLERY ****/
-/* line 1047, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1047, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .holder {
   margin: 45px 0 40px; }
 
-/* line 1048, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1048, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .holder a:hover {
   color: #fff;
   border: 2px solid #34495E;
   background: #34495E; }
 
-/* line 1049, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1049, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 ul#itemContainer {
   list-style: none;
   padding: 0;
@@ -1581,62 +1581,62 @@ ul#itemContainer {
   width: 100%; }
 
 /**** MASONRY GALLERY ****/
-/* line 1053, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1053, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #grid-gallery {
   margin-top: 60px; }
 
-/* line 1054, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1054, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid-gallery ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 1055, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1055, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid-gallery figure {
   margin: 0; }
 
-/* line 1056, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1056, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid-gallery figure img {
   display: block;
   width: 100%; }
 
-/* line 1057, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1057, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid-gallery figcaption h3 {
   margin: 0;
   padding: 0 0 0.5em; }
 
-/* line 1058, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1058, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid-gallery figcaption p {
   margin: 0; }
 
 /* Grid style */
-/* line 1061, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1061, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid-wrap {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 0em 0em; }
 
-/* line 1062, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1062, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid {
   margin: 0 auto; }
 
-/* line 1063, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1063, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid li {
   width: 25%;
   float: left;
   cursor: pointer; }
 
-/* line 1064, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1064, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid figure {
   padding: 0px 15px 30px 0; }
 
-/* line 1065, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1065, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .grid figcaption {
   background: #e4e4e4;
   padding: 25px; }
 
 /* Slideshow style */
-/* line 1068, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1068, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow {
   position: fixed;
   background: rgba(0, 0, 0, 0.8);
@@ -1653,14 +1653,14 @@ ul#itemContainer {
   -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
   transition: opacity 0.5s, visibility 0s 0.5s; }
 
-/* line 1084, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1084, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow-open .slideshow {
   opacity: 1;
   visibility: visible;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
-/* line 1085, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1085, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow ul {
   width: 100%;
   height: 100%;
@@ -1671,17 +1671,17 @@ ul#itemContainer {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s; }
 
-/* line 1095, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1095, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow ul.animatable li {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s; }
 
-/* line 1099, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1099, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow-open .slideshow ul {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 1103, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1103, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow li {
   width: 660px;
   height: 560px;
@@ -1691,11 +1691,11 @@ ul#itemContainer {
   margin: -280px 0 0 -330px;
   visibility: hidden; }
 
-/* line 1112, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1112, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow li.show {
   visibility: visible; }
 
-/* line 1113, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1113, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow li:after {
   content: '';
   position: absolute;
@@ -1707,14 +1707,14 @@ ul#itemContainer {
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s; }
 
-/* line 1124, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1124, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow li.current:after {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity 0.3s, visibility 0s 0.3s;
   transition: opacity 0.3s, visibility 0s 0.3s; }
 
-/* line 1130, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1130, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow figure {
   width: 100%;
   height: 100%;
@@ -1722,17 +1722,17 @@ ul#itemContainer {
   border: 50px solid #fff;
   overflow: hidden; }
 
-/* line 1137, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1137, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow figcaption {
   padding-bottom: 20px; }
 
-/* line 1138, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1138, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow figcaption h3 {
   font-weight: 300;
   font-size: 200%; }
 
 /* Navigation */
-/* line 1141, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1141, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow nav span {
   position: fixed;
   z-index: 1000;
@@ -1742,29 +1742,29 @@ ul#itemContainer {
   cursor: pointer;
   font-size: 2.2em; }
 
-/* line 1150, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1150, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-prev, .slideshow nav span.nav-next {
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
 
-/* line 1155, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1155, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-next {
   right: 0; }
 
-/* line 1156, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1156, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-close {
   top: 0;
   right: 0;
   padding: 0.5em 1em;
   color: #999; }
 
-/* line 1157, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1157, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slideshow nav span.nav-prev:hover, .slideshow nav span.nav-next:hover, .slideshow nav span.nav-close:hover {
   opacity: 0.8; }
 
-/* line 1159, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1159, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .icon:before, .icon:after {
   font-family: 'FontAwesome';
   speak: none;
@@ -1776,20 +1776,20 @@ ul#itemContainer {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 1170, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1170, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 span.nav-prev:before {
   content: "\f060"; }
 
-/* line 1171, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1171, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 span.nav-next:before {
   content: "\f061"; }
 
-/* line 1172, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1172, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 span.nav-close:before {
   content: "\f00d"; }
 
 /* Info on arrow key navigation */
-/* line 1175, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1175, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .info-keys {
   position: fixed;
   top: 10px;
@@ -1803,7 +1803,7 @@ span.nav-close:before {
   letter-spacing: 1px;
   text-align: center; }
 
-/* line 1188, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1188, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .info-keys:before, .info-keys:after {
   position: absolute;
   top: 0;
@@ -1814,22 +1814,22 @@ span.nav-close:before {
   line-height: 12px;
   font-size: 12px; }
 
-/* line 1198, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1198, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .info-keys:before {
   left: 10px;
   content: "\f104"; }
 
-/* line 1199, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1199, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .info-keys:after {
   right: 10px;
   content: "\f105"; }
 
 /**** CAROUSEL ****/
-/* line 1203, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1203, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #carousel {
   margin-bottom: 20px; }
 
-/* line 1204, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1204, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control {
   position: absolute;
   top: 50%;
@@ -1849,23 +1849,23 @@ span.nav-close:before {
   opacity: 1.0;
   filter: alpha(opacity=100); }
 
-/* line 1226, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1226, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control.right {
   background-position: -102px -33px;
   left: auto;
   right: 15px; }
 
-/* line 1227, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1227, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control.right:hover {
   background-position: -102px 0; }
 
-/* line 1228, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1228, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #carousel .carousel-control:hover {
   background-position: 0 0; }
 
 /**** THUMBNAIL CAROUSELS ****/
 /* CAROUSELS */
-/* line 1233, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1233, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-item {
   position: relative;
   float: left;
@@ -1873,19 +1873,19 @@ span.nav-close:before {
   height: auto;
   min-height: 315px; }
 
-/* line 1242, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1242, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-item .slider-image, .slider-item .slider-image a, .slider-item .slider-image img {
   display: block;
   position: relative;
   width: 100%; }
 
-/* line 1245, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1245, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-item .slider-image:hover, .slider-item .slider-image a:hover, .slider-item .slider-image img:hover {
   display: block;
   position: relative;
   width: 100%; }
 
-/* line 1247, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1247, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-title {
   position: relative;
   padding: 1px 15px 10px;
@@ -1895,7 +1895,7 @@ span.nav-close:before {
   border-radius: 0px 0px 4px 4px;
   min-height: 145px; }
 
-/* line 1259, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1259, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-title:after {
   top: 100%;
   border: solid transparent;
@@ -1906,12 +1906,12 @@ span.nav-close:before {
   pointer-events: none;
   min-height: 145px; }
 
-/* line 1268, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1268, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-title:after {
   border-width: 6px;
   left: 47%; }
 
-/* line 1269, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1269, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-title h3 {
   font-size: 12px;
   letter-spacing: 0.1em;
@@ -1919,16 +1919,16 @@ span.nav-close:before {
   text-transform: uppercase;
   margin-bottom: 2px; }
 
-/* line 1270, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1270, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-title h3 a {
   color: #eee; }
 
-/* line 1271, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1271, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .slider-title h3 a:hover {
   color: #fff; }
 
 /* Carousel Arrows*/
-/* line 1274, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1274, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .widget-scroll-prev, .widget-scroll-next, .widget-scroll-prev2, .widget-scroll-next2 {
   display: block;
   position: absolute;
@@ -1948,12 +1948,12 @@ span.nav-close:before {
   transition: all 0.3s ease;
   outline: none; }
 
-/* line 1297, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1297, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .widget-scroll-next {
   right: 20px; }
 
 /* Related Carousel */
-/* line 1301, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1301, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 #slider_related .slider-item {
   position: relative;
   float: left;
@@ -1962,17 +1962,17 @@ span.nav-close:before {
   min-height: 150px; }
 
 /* Single Portfolio Page Arrows */
-/* line 1309, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1309, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .widget-scroll-prev2 {
   right: 35px;
   top: 0px !important; }
 
-/* line 1310, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1310, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .widget-scroll-next2 {
   right: 5px;
   top: 0px !important; }
 
-/* line 1312, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1312, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .related_link {
   letter-spacing: 1px;
   color: #767676;
@@ -1981,12 +1981,12 @@ span.nav-close:before {
   margin: 10px auto 0;
   text-transform: uppercase; }
 
-/* line 1320, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1320, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .col_full {
   position: relative;
   margin: 20px auto 20px; }
 
-/* line 1321, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1321, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .strip2 {
   background-color: #e9e6e1;
   padding: 45px 0 0;
@@ -1996,13 +1996,13 @@ span.nav-close:before {
 /*	06: 404 PAGE, PRICING TABLE, ACCORDIAN, TABS
 /*-----------------------------------------------------------------------------------*/
 /**** 404 PAGE ****/
-/* line 1328, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1328, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .screen-bg {
   padding: 50px 0px 30px;
   margin-bottom: 30px; }
 
 /**** PRICING TABLE ****/
-/* line 1331, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1331, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tile2 {
   background-color: #e3e1e1;
   border-radius: 6px;
@@ -2011,7 +2011,7 @@ span.nav-close:before {
   text-align: center;
   margin-bottom: 25px; }
 
-/* line 1341, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1341, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tile2.tile-hot:before {
   background-size: 82px 82px;
   content: "";
@@ -2021,14 +2021,14 @@ span.nav-close:before {
   top: 6px;
   width: 82px; }
 
-/* line 1350, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1350, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-table {
   text-align: center;
   margin-bottom: 20px;
   padding: 10px;
   background: transparent; }
 
-/* line 1351, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1351, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-table h4 {
   color: #fff;
   margin-bottom: -4px;
@@ -2038,17 +2038,17 @@ span.nav-close:before {
   letter-spacing: 1px;
   font-weight: 700 !important; }
 
-/* line 1360, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1360, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-header-row-1 small {
   color: #fff; }
 
-/* line 1361, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1361, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-table ul {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 1362, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1362, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .price {
   font: 40px 'Lato', sans serif;
   font-weight: 700;
@@ -2056,14 +2056,14 @@ span.nav-close:before {
   text-align: center;
   color: #555; }
 
-/* line 1369, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1369, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-header-row-1 {
   text-align: center;
   height: 75px;
   padding: 5px 0 12px;
   border-radius: 6px 6px 0px 0px; }
 
-/* line 1377, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1377, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-header-row-2 {
   text-align: center;
   height: 90px;
@@ -2072,35 +2072,35 @@ span.nav-close:before {
   border-top: none;
   background: #E9E6E1 !important; }
 
-/* line 1385, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1385, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-content-row-odd {
   font-size: 14px;
   padding: 8px 0;
   background: #f0eee9 !important; }
 
-/* line 1386, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1386, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-content-row-even {
   font-size: 14px;
   padding: 8px 0;
   background: #E9E6E1 !important; }
 
-/* line 1387, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1387, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-footer {
   text-align: center;
   height: 65px;
   padding: 20px 0 0;
   border-radius: 0px 0px 6px 6px; }
 
-/* line 1395, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1395, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-table h5 {
   font-weight: 400; }
 
-/* line 1396, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1396, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-table small {
   text-transform: uppercase;
   font-size: 9px; }
 
-/* line 1397, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1397, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .pricing-table .btn-pricing {
   color: #fff;
   padding: 0 10px;
@@ -2108,7 +2108,7 @@ span.nav-close:before {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 0px; }
 
-/* line 1406, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1406, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .btn-pricing:hover {
   background: rgba(255, 255, 255, 0.3);
   color: #fff; }
@@ -2116,94 +2116,94 @@ span.nav-close:before {
 /*************************************************************
 	ACCORDIAN
  *************************************************************/
-/* line 1411, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1411, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .panel-heading {
   box-shadow: none !important; }
 
-/* line 1412, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1412, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .panel-heading a {
   font-weight: 400; }
 
-/* line 1413, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1413, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .panel-heading .accordion-toggle:after {
   font-family: 'FontAwesome';
   content: "\f105";
   float: right; }
 
-/* line 1414, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1414, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .panel-heading .accordion-toggle.collapsed:after {
   content: "\f107"; }
 
-/* line 1415, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1415, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .panel {
   box-shadow: none !important;
   border: 0px none !important; }
 
-/* line 1416, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1416, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .panel-heading + .panel-collapse .panel-body, .panel-footer + .panel-collapse .panel-body {
   border: 0px none !important; }
 
 /*************************************************************
 	TABS
  *************************************************************/
-/* line 1421, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1421, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nav-tabs {
   float: none !important; }
 
-/* line 1422, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1422, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .nav-tabs a {
   border-radius: 0px !important;
   border: 0 none !important;
   -webkit-backface-visibility: hidden; }
 
-/* line 1429, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1429, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tab-content {
   margin-top: 20px !important; }
 
 /*************************************************************
 	TOOLTIPS
  *************************************************************/
-/* line 1434, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1434, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip {
   font-size: 13px; }
 
-/* line 1435, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1435, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.in {
   opacity: 1;
   filter: alpha(opacity=100);
   zoom: 1; }
 
-/* line 1436, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1436, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.top {
   padding-bottom: 9px;
   margin-top: -13px; }
 
-/* line 1437, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1437, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.top .tooltip-arrow {
   border-top-color: #34495e;
   border-width: 9px 9px 0;
   bottom: 0;
   margin-left: -9px; }
 
-/* line 1443, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1443, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.right .tooltip-arrow {
   border-right-color: #34495e;
   border-width: 9px 9px 9px 0;
   margin-top: -9px;
   left: -3px; }
 
-/* line 1449, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1449, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.bottom {
   padding-top: 8px; }
 
-/* line 1450, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1450, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.bottom .tooltip-arrow {
   border-bottom-color: #34495e;
   border-width: 0 9px 9px;
   margin-left: -9px;
   top: -1px; }
 
-/* line 1456, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1456, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.left .tooltip-arrow {
   border-left-color: #34495e;
   border-width: 9px 0px 9px 9px;
@@ -2211,11 +2211,11 @@ span.nav-close:before {
   top: -1px;
   right: -4px; }
 
-/* line 1462, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1462, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip.left {
   margin-left: -15px; }
 
-/* line 1464, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1464, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .tooltip-inner {
   background-color: #34495e;
   line-height: 18px;
@@ -2227,270 +2227,270 @@ span.nav-close:before {
 /*-----------------------------------------------------------------------------------*/
 /*	07: CSS3 ANIMATIONS
 /*-----------------------------------------------------------------------------------*/
-/* line 1479, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1479, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .animated {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
   animation-duration: 1s; }
 
-/* line 1479, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1479, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .animated.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s; }
 
 @-webkit-keyframes fadeIn {
-  /* line 1479, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1479, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0; }
 
-  /* line 1479, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1479, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1; } }
 
 @keyframes fadeIn {
-  /* line 1484, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1484, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0; }
 
-  /* line 1484, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1484, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1; } }
 
-/* line 1486, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1486, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn; }
 
 @-webkit-keyframes fadeInUp {
-  /* line 1493, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1493, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px); }
 
-  /* line 1494, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1494, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
 @keyframes fadeInUp {
-  /* line 1507, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1507, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(20px);
             transform: translateY(20px); }
 
-  /* line 1508, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1508, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 
-/* line 1510, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1510, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp; }
 
 @-webkit-keyframes fadeInDown {
-  /* line 1517, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1517, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px); }
 
-  /* line 1518, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1518, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0); } }
 
 @keyframes fadeInDown {
-  /* line 1529, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1529, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-20px);
             transform: translateY(-20px); }
 
-  /* line 1530, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1530, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 
-/* line 1533, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1533, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown; }
 
 @-webkit-keyframes bounceInDown {
-  /* line 1540, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1540, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px); }
 
-  /* line 1541, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1541, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px); }
 
-  /* line 1542, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1542, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateY(-10px); }
 
-  /* line 1543, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1543, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateY(0); } }
 
 @keyframes bounceInDown {
-  /* line 1558, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1558, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateY(-2000px);
             transform: translateY(-2000px); }
 
-  /* line 1559, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1559, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateY(30px);
             transform: translateY(30px); }
 
-  /* line 1560, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1560, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px); }
 
-  /* line 1561, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1561, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 
-/* line 1564, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1564, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown; }
 
 @-webkit-keyframes bounceInLeft {
-  /* line 1571, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1571, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px); }
 
-  /* line 1572, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1572, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px); }
 
-  /* line 1573, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1573, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(-10px); }
 
-  /* line 1574, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1574, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes bounceInLeft {
-  /* line 1590, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1590, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
             transform: translateX(-2000px); }
 
-  /* line 1591, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1591, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
             transform: translateX(30px); }
 
-  /* line 1592, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1592, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(-10px);
             transform: translateX(-10px); }
 
-  /* line 1593, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1593, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
-/* line 1596, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1596, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .bounceInLeft {
   -webkit-animation-name: bounceInLeft;
   animation-name: bounceInLeft; }
 
 @-webkit-keyframes bounceInRight {
-  /* line 1603, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1603, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px); }
 
-  /* line 1604, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1604, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px); }
 
-  /* line 1605, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1605, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(10px); }
 
-  /* line 1606, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1606, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0); } }
 
 @keyframes bounceInRight {
-  /* line 1622, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1622, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
             transform: translateX(2000px); }
 
-  /* line 1623, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1623, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
             transform: translateX(-30px); }
 
-  /* line 1624, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1624, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   80% {
     -webkit-transform: translateX(10px);
             transform: translateX(10px); }
 
-  /* line 1625, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1625, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); } }
 
-/* line 1628, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1628, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight; }
 
 @-webkit-keyframes shake {
-  /* line 1635, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1635, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0%, 100% {
     -webkit-transform: translateX(0); }
 
-  /* line 1635, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1635, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px); }
 
-  /* line 1636, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1636, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px); } }
 
 @keyframes shake {
-  /* line 1649, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1649, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   0%, 100% {
     -webkit-transform: translateX(0);
             transform: translateX(0); }
 
-  /* line 1650, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1650, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
             transform: translateX(-10px); }
 
-  /* line 1651, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1651, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
             transform: translateX(10px); } }
 
-/* line 1654, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1654, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .shake {
   -webkit-animation-name: shake;
   animation-name: shake; }
@@ -2499,10 +2499,10 @@ span.nav-close:before {
 /*	08: MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
 @media (max-width: 1199px) {
-  /* line 1665, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1665, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav {
     margin: 4px 0 0 0; }
-  /* line 1668, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1668, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li > a {
     font-weight: 400;
     letter-spacing: 2px;
@@ -2510,61 +2510,61 @@ span.nav-close:before {
     padding: 24px 18px 22px;
     text-align: center !important;
     text-transform: uppercase; }
-  /* line 1676, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1676, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .header {
     min-height: 0px; }
-  /* line 1677, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1677, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .logo {
     max-width: 200px;
     float: left;
     margin: 0px 0px 0px 0px !important; } }
 
 @media (max-width: 991px) {
-  /* line 1680, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1680, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .FlickrImagesBlog li {
     width: 10% !important; }
-  /* line 1681, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1681, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 80%; }
-  /* line 1682, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1682, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .navbar {
     min-height: 0px; }
-  /* line 1685, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1685, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li > a {
     font-size: 12px;
     margin: 0px 0 0px 0 !important;
     padding: 12px 10px 10px !important; }
-  /* line 1690, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1690, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav {
     margin: 0px -20px 0px 0 !important; }
-  /* line 1691, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1691, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .header {
     float: none !important;
     text-align: center;
     margin: 0px auto;
     padding-bottom: 0px !important; }
-  /* line 1692, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1692, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .container {
     padding: 0 15px !important; }
-  /* line 1693, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1693, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .btn-navbar {
     display: block; }
-  /* line 1694, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1694, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .nivo {
     margin-top: 0px !important; }
-  /* line 1695, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1695, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #banner {
     padding-bottom: 25px !important; }
-  /* line 1696, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1696, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .logo {
     float: left;
     max-width: 118px;
     margin: 0px 0px 0 0px !important; }
-  /* line 1697, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1697, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .navbar .nav.pull-right {
     float: right;
     margin-right: 0px !important; }
-  /* line 1698, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1698, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .btn-blog1 {
     width: 70px;
     padding: 5px;
@@ -2572,38 +2572,38 @@ span.nav-close:before {
 
 /* mobile menu */
 @media (max-width: 767px) {
-  /* line 1702, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1702, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .logo {
     float: left;
     max-width: 200px;
     margin: 0px 0px 0px 10px !important; }
-  /* line 1703, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1703, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .navbar .nav.pull-right {
     float: none;
     width: 100%;
     margin: 0; }
-  /* line 1704, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1704, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li {
     border-top: 1px solid #2C2C2C;
     width: 100% !important; }
-  /* line 1705, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1705, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li a {
     text-align: left !important; }
-  /* line 1706, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1706, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > li:first-child {
     border-top: 0px solid #2C2C2C;
     width: 100% !important;
     margin-top: 0px; }
-  /* line 1707, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1707, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #main_menu .nav > .active > a, #main_menu .nav > .active > a:hover {
     background: transparent !important; }
-  /* line 1708, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1708, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   ul.dropdown-menu {
     position: static;
     clear: both;
     margin: 0px 0px 20px 0px !important;
     float: none; }
-  /* line 1709, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1709, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu {
     width: 100% !important;
     margin: 0px !important;
@@ -2611,70 +2611,70 @@ span.nav-close:before {
     left: 0px !important;
     top: 0px !important;
     position: relative !important; }
-  /* line 1719, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1719, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu > li {
     background-color: rgba(0, 0, 0, 0.2); }
-  /* line 1720, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1720, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu > li > a {
     color: #bbb;
     display: block;
     padding: 15px 25px !important;
     margin: 0px 0px 2px 0px !important; }
-  /* line 1721, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1721, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu li:hover {
     background-color: rgba(0, 0, 0, 0.3) !important; }
-  /* line 1722, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1722, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu li:last-child {
     margin-bottom: -2px; }
-  /* line 1723, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1723, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
     text-decoration: none;
     color: #fff;
     background: transparent !important;
     -webkit-filter: none;
             filter: none; }
-  /* line 1725, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1725, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .navbar-toggle {
     right: 0px; }
-  /* line 1726, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1726, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu .sub-menu {
     width: 100% !important;
     left: 0px !important;
     padding-left: 30px;
     visibility: visible !important;
     padding-top: 1px; }
-  /* line 1727, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1727, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .dropdown-menu .sub-menu li:last-child {
     margin-bottom: -15px; }
   /* prettyPhoto styling for small screens */
-  /* line 1730, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1730, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .pp_pic_holder.pp_default {
     width: 100% !important;
     left: 0 !important;
     overflow: hidden; }
-  /* line 1731, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1731, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   div.pp_default .pp_content_container .pp_left {
     padding-left: 0 !important; }
-  /* line 1732, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1732, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   div.pp_default .pp_content_container .pp_right {
     padding-right: 0 !important; }
-  /* line 1733, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1733, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .pp_content {
     width: 100% !important;
     height: auto !important; }
-  /* line 1734, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1734, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .pp_fade {
     width: 100% !important;
     height: 100% !important; }
-  /* line 1735, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1735, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom {
     display: none !important; }
-  /* line 1736, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1736, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #pp_full_res img {
     width: 100% !important;
     height: auto !important;
     border-radius: 0px; }
-  /* line 1737, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1737, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .pp_details {
     width: 100% !important;
     padding-left: 3%;
@@ -2683,22 +2683,22 @@ span.nav-close:before {
     margin-top: 0px !important;
     background-color: #fff;
     height: 60px !important; }
-  /* line 1738, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1738, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .pp_loaderIcon {
     display: none !important; }
-  /* line 1739, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1739, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   a.pp_close {
     right: 10px !important;
     top: 10px !important; }
-  /* line 1740, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1740, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   div.pp_default .pp_content_container .pp_right {
     background: #fff;
     padding-left: 0px !important; }
-  /* line 1741, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1741, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .theme-default .nivo-html-caption {
     display: none; } }
 
-/* line 1743, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1743, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 .navbar-nav ul {
   position: absolute;
   top: 80px;
@@ -2706,7 +2706,7 @@ span.nav-close:before {
   z-index: 999; }
 
 @media (max-width: 1199px) {
-  /* line 1745, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1745, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .navbar-nav ul {
     position: absolute;
     top: 60px;
@@ -2714,7 +2714,7 @@ span.nav-close:before {
     z-index: 999; } }
 
 @media (max-width: 978px) {
-  /* line 1748, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1748, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .navbar-nav ul {
     position: absolute;
     top: 40px;
@@ -2722,232 +2722,232 @@ span.nav-close:before {
     z-index: 999; } }
 
 @media (min-width: 979px) and (max-width: 1023px) {
-  /* line 1751, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1751, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 70%; } }
 
 @media only screen and (max-width: 479px) {
-  /* line 1754, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1754, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .nivo_height {
     padding-top: 0px !important; }
-  /* line 1755, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1755, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #banner {
     padding-bottom: 25px !important; } }
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 319px) {
-  /* line 1759, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1759, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   h1.title {
     line-height: 40px !important; } }
 
 /* slider revolution */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1763, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1763, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title {
     font-size: 16px;
     line-height: 22px; }
-  /* line 1764, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1764, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     font-size: 24px;
     line-height: 28px; }
-  /* line 1765, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1765, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.bold {
     font-size: 30px !important;
     padding: 12px 10px !important;
     letter-spacing: 4px; }
-  /* line 1766, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1766, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title2.bold {
     font-size: 30px !important; }
-  /* line 1767, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1767, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     line-height: 30px !important; }
-  /* line 1768, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1768, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .mobile {
     margin-top: -20px; } }
 
 /* slider revolution */
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1772, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1772, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title {
     font-size: 10px;
     line-height: 14px; }
-  /* line 1773, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1773, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.bold {
     font-size: 30px !important;
     line-height: 25px;
     margin: 0 auto; }
-  /* line 1774, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1774, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     font-size: 30px;
     line-height: 25px; }
-  /* line 1775, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1775, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title2.bold {
     font-size: 30px !important;
     margin-top: -10px; }
-  /* line 1776, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1776, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.big.bold {
     font-size: 30px !important; }
-  /* line 1777, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1777, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 80% !important;
     line-height: 35px !important; }
-  /* line 1778, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1778, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .follow_us a {
     font-size: 45px !important;
     margin: 20px 15px !important; }
-  /* line 1779, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1779, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .welcome_index {
     font: 25px/35px 'Lato', sans-serif !important;
     padding: 25px 0 10px !important; } }
 
 /* slider revolution */
 @media screen and (max-width: 31.5em) {
-  /* line 1783, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1783, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.bold {
     font-size: 20px !important;
     letter-spacing: 4px; }
-  /* line 1784, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1784, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title2.bold {
     font-size: 25px !important;
     margin-top: 0px; }
-  /* line 1785, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1785, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title-sub {
     margin: 10px 0 0 !important; }
-  /* line 1786, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1786, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .rev-title.big {
     font-size: 20px;
     line-height: 25px !important; }
-  /* line 1787, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1787, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .btn-mobile, .btn-mobile2 {
     font-size: 11px !important;
     padding: 8px 9px;
     margin-top: 10px;
     border: 1px solid #fff; }
-  /* line 1788, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1788, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .btn-mobile2 {
     margin-top: -15px; }
-  /* line 1789, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1789, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .fullscreenvideo {
     margin-top: -20px !important; }
-  /* line 1790, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1790, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .welcome_index {
     font: 25px/35px 'Lato', sans-serif !important;
     padding: 25px 0 10px !important; }
-  /* line 1791, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1791, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   h3.follow {
     width: 90% !important;
     line-height: 35px !important; }
-  /* line 1792, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1792, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .follow_us a {
     font-size: 35px !important;
     margin: 20px 10px !important; }
   /* gallery */
-  /* line 1795, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1795, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .holder a {
     font-size: 12px;
     padding: 4px 10px;
     margin: 0 5px 5px 0;
     letter-spacing: 0px !important; }
-  /* line 1796, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1796, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .holder {
     margin: 40px 0 40px;
     text-align: left; }
   /* filters */
-  /* line 1798, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1798, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #filters li a, #filters2 li a {
     font-size: 12px;
     padding: 8px 14px;
     margin: 0 5px 0px 0 !important;
     letter-spacing: 0px !important; }
-  /* line 1799, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1799, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #filters li, #filters2 li {
     margin-bottom: 0px !important; }
-  /* line 1800, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1800, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #filters2 {
     text-align: left !important;
     margin: 40px 5px 40px -40px !important; }
-  /* line 1801, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1801, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #options {
     margin: 0px 0 -10px; } }
 
 /* flickr */
 @media (min-width: 480px) and (max-width: 991px) {
-  /* line 1806, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1806, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .FlickrImagesBlog li {
     width: 20%; } }
 
 @media (min-width: 1024px) {
-  /* line 1809, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1809, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .FlickrImagesBlog li {
     width: 30% !important; } }
 
 /* dribbble */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1813, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1813, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .shotList img {
     width: 32.6% !important; } }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1816, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1816, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .shotList img {
     width: 48.88% !important; } }
 
 @media only screen and (max-width: 479px) {
-  /* line 1819, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1819, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .shotList img {
     width: 100% !important; } }
 
 /* masonry gallery */
 @media screen and (max-width: 60em) {
-  /* line 1824, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1824, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .grid li {
     width: 33.3%; }
-  /* line 1825, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1825, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .slideshow li {
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     margin: 0; }
-  /* line 1826, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1826, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .slideshow li figure img {
     width: auto;
     margin: 0 auto;
     max-width: 100%; }
-  /* line 1827, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1827, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .slideshow nav span, .slideshow nav span.nav-close {
     font-size: 1.8em;
     padding: 0.3em; }
-  /* line 1828, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1828, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   span.nav-close:before {
     color: #555; }
-  /* line 1829, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1829, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .info-keys {
     display: none; } }
 
 @media screen and (max-width: 35em) {
-  /* line 1832, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1832, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .grid li {
     width: 50%; } }
 
 @media screen and (max-width: 24em) {
-  /* line 1835, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1835, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .grid li {
     width: 100%; }
-  /* line 1836, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1836, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   #footer2 {
     padding: 28px 0 0 !important; } }
 
 @media (min-width: 320px) and (max-width: 479px) {
-  /* line 1840, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1840, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .slideshow figure {
     background: #fff;
     border: 20px solid #fff;
     overflow-y: scroll !important; }
-  /* line 1841, /home/an/acm/Website-Theme/src/scss/theme.scss */
+  /* line 1841, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
   .slideshow nav span.nav-prev, .slideshow nav span.nav-next {
     display: none; } }
 
-/* line 1844, /home/an/acm/Website-Theme/src/scss/theme.scss */
+/* line 1844, /Users/bbamsch/other/Website-Theme/src/scss/theme.scss */
 iframe html {
   overflow: hidden; }

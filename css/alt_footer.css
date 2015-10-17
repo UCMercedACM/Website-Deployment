@@ -1,11 +1,11 @@
 /***************************************************
 	ALTERNATIVE FOOTER
  ***************************************************/
-/* line 4, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 4, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 .no-margin {
   margin-bottom: 0px !important; }
 
-/* line 6, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 6, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt {
   position: relative;
   line-height: 22px;
@@ -13,35 +13,35 @@
   opacity: 1.0;
   background: #222; }
 
-/* line 14, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 14, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt .col-md-3 {
   padding-top: 15px;
   margin: 0 10px 20px -10px;
   color: #777; }
 
-/* line 20, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 20, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt li {
   padding-bottom: 5px;
   border-bottom: 1px #444 solid;
   line-height: 22px; }
 
-/* line 26, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 26, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt li:last-child {
   border-bottom: 0; }
 
-/* line 27, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 27, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt .col-md-3 a {
   color: #999; }
 
-/* line 28, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 28, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt .col-md-3 a:hover {
   color: #eee; }
 
-/* line 29, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 29, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt .col-md-3 .zocial {
   color: #fff; }
 
-/* line 31, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 31, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt h6 {
   font-size: 12px;
   color: #999;
@@ -52,26 +52,26 @@
   font-weight: 700;
   letter-spacing: 0.15em; }
 
-/* line 42, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 42, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt h5 {
   font-size: 16px;
   color: #888;
   padding-top: 8px; }
 
 /* Flickr */
-/* line 45, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 45, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 .flickrs {
   margin-right: 0px;
   margin-top: 23px; }
 
-/* line 46, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 46, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 .FlickrImages li {
   margin: 0 4px 4px 0 !important;
   padding: 0 !important;
   float: left;
   border: 0 !important; }
 
-/* line 52, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 52, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 .FlickrImages li a {
   display: block;
   width: 100% !important;
@@ -79,31 +79,31 @@
   overflow: hidden;
   float: left; }
 
-/* line 58, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 58, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 .FlickrImages li a img {
   width: 100% !important;
   width: 48px !important;
   height: 48px !important;
   opacity: 1; }
 
-/* line 60, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 60, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 .copyright {
   color: #666;
   margin-top: 10px; }
 
-/* line 61, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 61, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt ul {
   padding: 0;
   margin: 0;
   list-style: none; }
 
-/* line 62, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+/* line 62, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
 #footer_alt i {
   margin-right: 10px;
   margin-left: 1px; }
 
 @media (max-width: 979px) {
-  /* line 65, /home/an/acm/Website-Theme/src/scss/alt_footer.scss */
+  /* line 65, /Users/bbamsch/other/Website-Theme/src/scss/alt_footer.scss */
   #footer_alt .col-md-3 {
     margin-left: 0px;
     margin-right: 0px; } }
